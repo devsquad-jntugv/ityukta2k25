@@ -8,17 +8,17 @@ const profiles = [
     image: profile,
   },
   {
-    name: "Kadali Sai Kishore",
+    name: "Masood",
     role: "Treasurer",
     image: profile,
   },
   {
-    name: "Kadali Sai Kishore",
+    name: "GS Pradeep",
     role: "Treasurer",
     image: profile,
   },
   {
-    name: "Kadali Sai Kishore",
+    name: "Varun",
     role: "Treasurer",
     image: profile,
   },
@@ -78,7 +78,7 @@ const TeamCard = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center p-3 relative text-white m-2 overflow-hidden">
+    <div className="flex flex-col items-center justify-center p-3 relative text-white m-2">
       
       {/* Left navigation button */}
       {currentIndex > 0 && (
@@ -105,7 +105,7 @@ const TeamCard = () => {
       )}
 
       {/* Profiles container (Horizontal Scroll) */}
-      <div className="flex gap-6 overflow-x-scroll scrollbar-hide overflow-hidden px-4">
+      <div className="flex gap-6 overflow-x-auto scrollbar-hide px-4">
         {profiles.slice(currentIndex, currentIndex + cardsToShow).map((profile, index) => (
           <div
             key={index}
