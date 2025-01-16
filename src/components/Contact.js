@@ -36,7 +36,7 @@ const Contact = () => {
       }
   return (
     <>
-    <div className='bg-[#0e0d0d] w-[100%] py-4 px-4'>
+    <div className='bg-[#0e0d0d] w-[100%] py-8 px-4'>
         <button className='px-2 py-2'><ArrowLeft size={30} onClick={()=>handleNavigate('/')} className='text-white bg-gradient-to-tr from-[#6439ff] to-[#4f75ff] rounded-full'/></button>
     </div>
     <div className='bg-[#0e0d0d] h-screen w-[100%] px-4 py-3 flex justify-center items-center'>
