@@ -105,7 +105,7 @@ const TeamCard = () => {
       )}
 
       {/* Profiles container (Horizontal Scroll) */}
-      <div className="flex gap-6 overflow-x-auto scrollbar-hide overflow-hidden px-4">
+      <div className="flex gap-6 overflow-x-scroll scrollbar-hide overflow-hidden px-4">
         {profiles.slice(currentIndex, currentIndex + cardsToShow).map((profile, index) => (
           <div
             key={index}

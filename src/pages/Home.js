@@ -80,8 +80,8 @@ const Home = () => {
         </div>
       </div>
     </div>
-    <div className='flex flex-row justify-center items-center px-3 py-3 rounded-[10px] w-[320px] sm:w-[480px] h-[150px] sm:h-[180px] bg-black shadow-sm shadow-white transform hover:scale-105 transition-transform duration-300'>
-      <div className='w-full'>
+    <div className='flex flex-row justify-center items-center px-3 py-3 gap-1 rounded-[10px] w-[320px] sm:w-[480px] h-[150px] sm:h-[180px] bg-black shadow-sm shadow-white transform hover:scale-105 transition-transform duration-300'>
+      <div className='w-full px-1 py-1'>
         <img className='rounded-[50%] border-[3px]-white w-[150px] h-[150px] bg-cover' src={G3} alt='Fest Coordinator'/>
       </div>
       <div className='flex flex-col items-start gap-1 w-full'>
