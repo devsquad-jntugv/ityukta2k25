@@ -1,0 +1,30 @@
+.main{
+    width:70%;
+    height:70vh;
+    display:-webkit-flex;
+    display:-moz-flex;
+    display:-ms-flexbox;
+    display:-o-flex;
+    display: flex;
+}
+.team{
+    flex-direction: column ;
+    width:370px;
+    color:#001346;
+    background-color: #fff;
+    align-self: center;
+    box-shadow:0 0 10px rgba(0,0,0,o.5);
+    cursor:pointer;
+    border-radius:10px;
+    margin:10px 0;
+}
+.img-area.img1{
+    background-image: url("D:/ITYUKTA2K25/ityukta2k25/src/assets/cultural.jpg");
+}
+.img-area{
+    border-radius:10px 10px 50% 0;
+    padding:120px 30px;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+}
