@@ -65,7 +65,7 @@ const Home = () => {
     <h1 className="font-bold text-[25px] font-varun sm:text-[30px] md:text-[35px] bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent tracking-wider text-center border-b-4 border-b-[#6439ff]">STUDENT COORDINATORS</h1>
   </div>
   <div className='flex flex-col justify-center items-center gap-5 sm:flex-row py-8 px-4'>
-    <div className='flex flex-row justify-center items-center px-3 py-3 gap-1 rounded-[10px] w-[320px] sm:w-[480px] h-[150px] sm:h-[180px] bg-black shadow-sm shadow-white transform hover:scale-105 transition-transform duration-300'>
+    <div className='flex flex-row justify-center items-center px-3 py-3 gap-1 rounded-[10px] w-[320px] sm:w-[480px] h-[150px] sm:h-[180px] bg-[#0e0d0d] shadow-sm shadow-white transform hover:scale-105 transition-transform duration-300'>
       <div className='w-full px-1 py-1'>
         <img className='rounded-[50%] border-[3px]-white sm:w-[150px] sm:h-[150px] w-[140px] h-[140px] bg-cover' src={G3} alt='Fest Coordinator'/>
       </div>
@@ -80,7 +80,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-    <div className='flex flex-row justify-center items-center px-3 py-3 gap-1 rounded-[10px] w-[320px] sm:w-[480px] h-[150px] sm:h-[180px] bg-black shadow-sm shadow-white transform hover:scale-105 transition-transform duration-300'>
+    <div className='flex flex-row justify-center items-center px-3 py-3 gap-1 rounded-[10px] w-[320px] sm:w-[480px] h-[150px] sm:h-[180px] bg-[#0e0d0d] shadow-sm shadow-white transform hover:scale-105 transition-transform duration-300'>
       <div className='w-full px-1 py-1'>
         <img className='rounded-[50%] border-[3px]-white w-[150px] h-[150px] bg-cover' src={G3} alt='Fest Coordinator'/>
       </div>
