@@ -22,7 +22,7 @@ const Home = () => {
     <>
     <Navbar/>
     <section id="home" className=' h-screen w-[100%] px-4 py-3 flex justify-center items-center mt-12'>
-        <div className='relative z-5 flex flex-col justify-center items-center gap-4 top-[-40px]'>
+        <div className='relative z-5 flex flex-col justify-center items-center gap-4 sm:top-[-40px] top-[-20px]'>
             <div className='flex flex-col justify-center items-center gap-2'>
                 <h1 className='font-bold text-[45px] font-varun sm:text-[70px] md:text-[95px] bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent tracking-wider text-center'>ITYUKTA <span className='font-semibold text-5xl text-[45px] sm:text-[70px] md:text-[95px]'>2K25</span></h1>
                 <p className='font-serif text-white text-[16px] sm:text-[18px] md:text-[22px] text-center mt-[-15px]'>A Two Day National Level Tech Symposium</p>
@@ -33,7 +33,7 @@ const Home = () => {
             </div>
         </div>
         <img
-          className="absolute inset-0 z-[-1] w-full h-full object-cover"
+          className="absolute inset-0 z-[-1] w-full h-full bg-cover"
           style={{ filter: "saturate(0.5)" }}
           src={BG1}
           alt="/"
