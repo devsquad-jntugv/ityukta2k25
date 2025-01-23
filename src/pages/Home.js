@@ -21,8 +21,8 @@ const Home = () => {
   return (
     <>
     <Navbar/>
-    <section id="home" className=' h-screen w-[100%] px-4 py-3 flex justify-center items-center mt-12'>
-        <div className='relative z-5 flex flex-col justify-center items-center gap-4 sm:top-[-40px] top-[-20px]'>
+    <section id="home" className=' h-screen w-[100%] px-4 py-3 flex justify-center items-center'>
+        <div className='relative z-5 flex flex-col justify-center items-center gap-4'>
             <div className='flex flex-col justify-center items-center gap-2'>
                 <h1 className='font-bold text-[45px] font-varun sm:text-[70px] md:text-[95px] bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent tracking-wider text-center'>ITYUKTA <span className='font-semibold text-5xl text-[45px] sm:text-[70px] md:text-[95px]'>2K25</span></h1>
                 <p className='font-serif text-white text-[16px] sm:text-[18px] md:text-[22px] text-center mt-[-15px]'>A Two Day National Level Tech Symposium</p>
@@ -39,7 +39,7 @@ const Home = () => {
           alt="/"
         />
     </section>
-    <section id="about" className="bg-[#0e0d0d] w-full flex flex-col md:flex-row justify-center items-center md:gap-3 gap-1 px-6 py-4 sm:px-10 mt-[-50px] overflow-hidden">
+    <section id="about" className="bg-[#0e0d0d] w-full flex flex-col md:flex-row justify-center items-center md:gap-3 gap-1 px-6 py-4 sm:px-10 overflow-hidden">
   <div className="flex flex-col justify-center items-center gap-4 py-2">
     <h1 className="font-bold text-[25px] font-varun sm:text-[30px] md:text-[35px] bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent tracking-wider text-center border-b-4 border-b-[#6439ff]">
       ABOUT ITYUKTA
