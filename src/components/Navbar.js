@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import logo from "../assets/logo.png"
 import { useNavigate } from 'react-router-dom';
@@ -14,8 +14,22 @@ const Navbar = () => {
   const handelNavigate=(path)=>{
     navigate(path);
   }
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY >200) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
   return (
-    <nav className="bg-[#0e0d0d] text-white  fixed w-full top-0 z-50">
+    <nav className={` text-white  fixed w-full top-0 z-50 transition-colors duration-300 ${isScrolled?"bg-[#0e0d0d]":"bg-transparent"}`}>
       <div className="mx-auto px-4 py-2">
         <div className="flex md:justify-around justify-between items-center h-18">
           {/* Logo */}
@@ -48,7 +62,7 @@ const Navbar = () => {
 
       {/* Mobile menu */}
       {isOpen && (
-        <div className="md:hidden font-kittu">
+        <div className="md:hidden font-kittu bg-[#0e0d0d]">
           <div className="px-2 pt-2 pb-3 space-y-1">
             <button onClick={() => { scrollToSection('home'); setIsOpen(false); }} 
                     className="block w-full text-left px-3 py-2 rounded-md hover:bg-gray-700">Home</button>
