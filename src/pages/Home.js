@@ -39,7 +39,7 @@ const Home = () => {
           alt="/"
         />
     </section>
-    <section id="about" className="bg-[#0e0d0d] w-full flex flex-col md:flex-row justify-center items-center md:gap-3 gap-1 px-6 py-4 sm:px-10 overflow-hidden">
+    <section id="about" className="bg-[#0e0d0d] w-full flex flex-col md:flex-row justify-center items-center md:gap-3 gap-1 px-6 sm:px-10 overflow-hidden mt-[-20px] sm:mt-0">
   <div className="flex flex-col justify-center items-center gap-4 py-2">
     <h1 className="font-bold text-[25px] font-varun sm:text-[30px] md:text-[35px] bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent tracking-wider text-center border-b-4 border-b-[#6439ff]">
       ABOUT ITYUKTA
