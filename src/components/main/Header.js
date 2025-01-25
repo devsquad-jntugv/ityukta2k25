@@ -18,7 +18,6 @@ const Header = () => {
           style={{ filter: "saturate(0.5)" }}
           src={BG1}
           alt="/"
-          loading='lazy'
         />
     </>
   )
