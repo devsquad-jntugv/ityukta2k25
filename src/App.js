@@ -1,11 +1,12 @@
+import React from 'react';
 import {BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 import './App.css';
-import Home from './pages/Home';
 import Contact from './components/Contact';
 import MernPage from './components/WorkshopPages/MernPage';
+const Home=React.lazy(()=>import('./pages/Home'))
 function App() {
   return (
-    <div className="">
+    <div>
       <Router>
         <Routes>
           <Route path='/' element={<Home/>}/>

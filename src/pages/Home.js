@@ -1,6 +1,7 @@
 import React,{Suspense} from 'react'
 import '@fortawesome/fontawesome-free/css/all.min.css'
 import { Music } from 'lucide-react'
+import {HashLoader} from 'react-spinners'
 const Header=React.lazy(()=>import('../components/main/Header.js'))
 const Navbar=React.lazy(()=>import('../components/Navbar.js'))
 const About =React.lazy(()=>import('../components/main/About.js'))
@@ -14,7 +15,7 @@ const Workshops=React.lazy(()=>import('../components/main/Workshops.js'))
 const Culturals=React.lazy(()=>import('../components/main/Culturals.js'))
 const Home = () => {
   return (
-    <Suspense fallback={<div className='w-[100%] flex justify-center items-center text-[18px] font-serif h-screen'>Loading...</div>}>
+    <Suspense fallback={<div className='w-[100%] h-screen bg-[#0e0d0d] flex justify-center items-center'><HashLoader  loading size={70} speedMultiplier={1} color="#3600f7"/></div>}>
     <Navbar/>
     <section id="home" className=' h-screen w-[100%] px-4 py-3 flex justify-center items-center'>
         <Header/>
