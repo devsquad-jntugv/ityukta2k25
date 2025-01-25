@@ -110,7 +110,7 @@ const Events=()=> {
             <div key={event.id} className="relative rounded-lg bg-black overflow-hidden group">
       {/* Image */}
                <div>
-                <img src={ludo} alt="Event1" className="object-cover w-full h-full"/>
+                <img src={ludo} alt="Event1" className="object-cover w-full h-full" loading='lazy'/>
                </div>
 
       {/* Hover Content */}

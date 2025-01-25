@@ -34,7 +34,7 @@ const Navbar = () => {
         <div className="flex md:justify-around justify-between items-center h-18">
           {/* Logo */}
           <div className="mt-3 bg-transparent">
-            <img src={logo} alt="logo" className="h-[75px] w-[75px] rounded-full bg-white"/>
+            <img src={logo} alt="logo" loading='lazy' className="h-[75px] w-[75px] rounded-full bg-white"/>
           </div>
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8 text-[16px] sm:text-[18px] font-kittu">

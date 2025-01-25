@@ -59,6 +59,7 @@ const Chief = () => {
                       src={guest.image}
                       alt={guest.name}
                       className="w-full h-full object-cover"
+                      loading='lazy'
                     />
                     <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                       <h3 className="text-xl font-semibold text-white">{guest.name}</h3>
@@ -67,21 +68,6 @@ const Chief = () => {
                     </div>
                   </div>
                   <div className="p-6 font-kittu">
-                    <p className="text-white mb-4">{guest.bio}</p>
-                    <div className="space-y-2 mb-4">
-                      <div className="flex items-center text-white">
-                        <Mic className="w-5 h-5 mr-2" />
-                        <span>{guest.session}</span>
-                      </div>
-                      <div className="flex items-center text-white">
-                        <MapPin className="w-5 h-5 mr-2" />
-                        <span>{guest.venue}</span>
-                      </div>
-                      <div className="flex items-center text-white">
-                        <Calendar className="w-5 h-5 mr-2" />
-                        <span>{guest.date}</span>
-                      </div>
-                    </div>
                     <div className="flex items-center space-x-4 pt-4 border-t font-kittu">
                       {guest.social.twitter && (
                         <a href={guest.social.twitter} className="text-white hover:text-blue-400">
