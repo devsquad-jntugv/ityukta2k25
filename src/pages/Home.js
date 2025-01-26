@@ -1,7 +1,7 @@
 import React,{Suspense,useEffect} from 'react'
 import '@fortawesome/fontawesome-free/css/all.min.css'
 import '../components/styles/home.css'
-import { Music } from 'lucide-react'
+import { Music, PointerIcon } from 'lucide-react'
 import Loading from '../components/Loading.js'
 const Header=React.lazy(()=>import('../components/main/Header.js'))
 const Navbar=React.lazy(()=>import('../components/Navbar.js'))
@@ -17,6 +17,7 @@ const Culturals=React.lazy(()=>import('../components/main/Culturals.js'))
 const Patrons=React.lazy(()=>import('../components/main/patrons.js'))
 const ChairPerson=React.lazy(()=>import('../components/main/ChairPerson.js'))
 const Fcord=React.lazy(()=>import('../components/main/Fcord.js'))
+const Combo=React.lazy(()=>import('../components/main/Combo.js'))
 const Home = () => {
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -69,13 +70,20 @@ const Home = () => {
     <h1 className="font-bold text-[25px] font-varun sm:text-[30px] md:text-[35px] bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent tracking-wider text-center border-b-4 border-b-[#6439ff]">WORKSHOPS</h1>
   </div>
   <Workshops/>
+  <a href="#combos" className='font-kittu py-2 px-3 text-[18px] sm:text-[20px] bg-gradient-to-tr from-[#6439ff] to-[#4f75ff] mt-[30px] text-white rounded-[5px] hover:cursor-pointer flex flex-row gap-2'>Combo offers available <PointerIcon size={30} className='-rotate-180 text-white'/></a>
 </section>
-<section 
-id="events" className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-4 overflow-hidden sm:py-24 py-8 px-4'>
+<section id="events" className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-4 overflow-hidden sm:py-24 py-8 px-4'>
   <div className="flex justify-center items-center">
     <h1 className="font-bold text-[25px] font-varun sm:text-[30px] md:text-[35px] bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent tracking-wider text-center border-b-4 border-b-[#6439ff]">EVENTS</h1>
   </div>
    <Events/>
+</section>
+<section id="combos" className='bg-[#0e0d0d]  w-full flex flex-col justify-center items-center gap-4 overflow-hidden sm:py-24 py-8 px-4 mx-auto'>
+<div className="flex justify-center items-center">
+    <h1 className="font-bold text-[25px] font-varun sm:text-[30px] md:text-[35px] bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent tracking-wider text-center border-b-4 border-b-[#6439ff]">COMBO GRAB</h1>
+  </div>
+  <Combo/>
+  <a href className='text-white bg-gradient-to-tr from-[#6439ff] to-[#4f75ff] font-kittu py-2 px-3 text-[18px] sm:text-[20px] rounded-[5px] mt-3 hover:cursor-pointer'>Register for Combo's</a>
 </section>
 <section id="culturals" className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-6 overflow-hidden sm:py-24 py-8 px-4'>
   <div className="flex justify-center items-center gap-2 w-full">
@@ -91,7 +99,7 @@ id="events" className='bg-[#0e0d0d] w-full flex flex-col justify-center items-ce
   <TeamCard/>
 </section>
 <Footer/>
-    </Suspense>
+</Suspense>
   )
 }
 

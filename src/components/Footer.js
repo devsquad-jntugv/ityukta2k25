@@ -1,5 +1,5 @@
 import React from 'react'
-import {Facebook,Youtube,Instagram,Linkedin} from 'lucide-react'
+import {Youtube,Instagram,Linkedin} from 'lucide-react'
 const Footer = () => {
     const scrollToSection = (sectionId) => {
         const element = document.getElementById(sectionId);
@@ -15,8 +15,8 @@ const Footer = () => {
            <p className='text-[16px] font-varun'>a national level tech-fest | Powered by JNTU-GV IT</p>
            <p className='text-[16px] font-varun'>Follow us for updates on :</p>
            <div className='flex gap-2 items-center justify-start transition-all'>
-             <Facebook size={22} className='hover:bg-blue-400 px-[1px] py-[1px] rounded-[2px] hover:cursor-pointer'/>
-             <Instagram size={22} className='hover:bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 px-[1px] py-[1px] rounded-[2px] hover:cursor-pointer'/>
+             
+             <a href="https://www.instagram.com/ityukta_2k25?igsh=ZjZ3NDJ2NTB5MDl2" target='_blank' rel="noopener noreferrer"><Instagram size={22} className='hover:bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 px-[1px] py-[1px] rounded-[2px] hover:cursor-pointer'/></a>
              <Linkedin size={22} className='hover:bg-blue-500 px-[1px] py-[1px] rounded-[2px] hover:cursor-pointer'/>
              <Youtube size={22} className='hover:bg-red-600 px-[1px] py-[1px] rounded-[2px] hover:cursor-pointer'/>
            </div>

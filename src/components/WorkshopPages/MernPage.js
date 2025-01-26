@@ -1,6 +1,6 @@
 import React from 'react';
-import Mern from '../../assets/workshop.jpg';
-import { ArrowLeft, Calendar, CheckCircle, Clock, IndianRupee, LucideBadgeIndianRupee, NotebookPen, QrCode, Timer } from 'lucide-react';
+import AI from '../../assets/Chat.jpg';
+import { ArrowLeft, Calendar, CheckCircle, Clock, IndianRupee, LucideBadgeIndianRupee, NotebookPen, PenLineIcon, QrCode, Timer } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 const MernPage = () => {
@@ -18,37 +18,48 @@ const MernPage = () => {
       <div className="flex flex-col gap-4 sm:w-1/2">
         {/* Image Section */}
         <div className="w-full">
-          <img className="w-full h-auto rounded-t-[10px]" src={Mern} alt="Workshop" />
+          <img className="w-full h-[500px] rounded-t-[10px] bg-cover" src={AI} alt="Workshop" />
         </div>
         {/* Workshop Info */}
         <div>
-          <h1 className="text-[22px] sm:text-[25px] font-kittu mb-2 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">MERN Stack Workshop</h1>
+          <h1 className="text-[22px] sm:text-[25px] font-kittu mb-2 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">AI Chat-Bot Development</h1>
           <p className="text-[15px] sm:text-[17px] font-kittu leading-relaxed mb-4">
             Join us for an intensive workshop where you'll learn the fundamentals of modern web development. This hands-on session covers React, TypeScript, and best practices for building scalable web applications. You'll work on real-world projects and learn from industry experts.
           </p>
 
-          {/* Learning Outcomes */}
+          {/* Prerequisites */}
+        <div className='flex flex-col sm:flex-row justify-start gap-3'>
+          <div>
+            <h2 className="text-xl font-semibold mb-2">Prerequisites</h2>
+            <ul className="space-y-2">
+              <li className="flex items-center">
+                <PenLineIcon size={24} className="text-green-500 mr-2" />
+                Laptops along with chargers
+              </li>
+            </ul>
+          </div>
           <div>
             <h2 className="text-xl font-semibold mb-2">Learning Outcomes:</h2>
             <ul className="space-y-2">
               <li className="flex items-center">
                 <CheckCircle size={24} className="text-green-500 mr-2" />
-                Basics of Backend Technologies
+                Programming Fundamentals
               </li>
               <li className="flex items-center">
                 <CheckCircle size={24} className="text-green-500 mr-2" />
-                Comprehensive Full-Stack Development Skills
+                Natural Language Processing
               </li>
               <li className="flex items-center">
                 <CheckCircle size={24} className="text-green-500 mr-2" />
-                Ability to Build End-to-End Applications
+                Machine Learning & Deep Learning
               </li>
               <li className="flex items-center">
                 <CheckCircle size={24} className="text-green-500 mr-2" />
-                Deployment and Hosting Expertise
+                API Integration
               </li>
             </ul>
           </div>
+        </div>
         </div>
       </div>
 

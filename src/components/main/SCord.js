@@ -16,7 +16,7 @@ const SCord = () => {
               <img className='rounded-[50%] border-[3px]-white sm:w-[150px] sm:h-[150px] w-[140px] h-[140px] bg-cover' src={G3} alt='Fest Coordinator'/>
             </div>
             <div className='flex flex-col items-start gap-1 w-full'>
-              <h1 className='text-[18px] sm:text-[20px] font-kittu font-semibold text-white'>GS Pradeep</h1>
+              <h1 className='text-[18px] sm:text-[20px] font-kittu font-semibold text-white'>BSS Sravan</h1>
               <p className='text-[15px] sm:text-[17px] font-kittu font-semibold text-[#4135eb]'>Fest Coordinator</p>
               <div className='flex items-center gap-3'>
                 <InstagramIcon size={19} className='text-white hover:cursor-pointer hover:bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 px-[1px] py-[1px] rounded-[2px]'/>
@@ -31,7 +31,7 @@ const SCord = () => {
               <img className='rounded-[50%] border-[3px]-white sm:w-[150px] sm:h-[150px] w-[140px] h-[140px] bg-cover' src={G3} alt='Fest Coordinator'/>
             </div>
             <div className='flex flex-col items-start gap-1 w-full'>
-              <h1 className='text-[18px] sm:text-[20px] font-kittu font-semibold text-white'>GS Pradeep</h1>
+              <h1 className='text-[18px] sm:text-[20px] font-kittu font-semibold text-white'>GSS Pradeep</h1>
               <p className='text-[15px] sm:text-[17px] font-kittu font-semibold text-[#4135eb]'>Fest Coordinator</p>
               <div className='flex items-center gap-3'>
                 <InstagramIcon size={19} className='text-white hover:cursor-pointer hover:bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 px-[1px] py-[1px] rounded-[2px]'/>
