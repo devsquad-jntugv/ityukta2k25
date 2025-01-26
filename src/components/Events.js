@@ -80,12 +80,12 @@ const Events=()=> {
   const [showTechnical, setShowTechnical] = useState(true);
 
   return (
-    <div className=" bg-[#0e0d0d] text-white">
+    <div className=" bg-[#0e0d0d] text-white text-[16px] sm:text-[18px]">
       <div className="container px-4 py-8">
         <div className="flex justify-center items-center gap-4 mb-6">
           <button
             onClick={() => setShowTechnical(true)}
-            className={`px-4 py-2 rounded-full transition-all duration-300 ${
+            className={`sm:px-4 px-2 sm:py-2 py-1 rounded-full transition-all duration-300 ${
               showTechnical
                 ? 'bg-gradient-to-tr from-[#6439ff] to-[#4f75ff] text-white font-varun'
                 : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
@@ -95,7 +95,7 @@ const Events=()=> {
           </button>
           <button
             onClick={() => setShowTechnical(false)}
-            className={`px-4 py-2 rounded-full transition-all duration-300 ${
+            className={`sm:px-4 px-2 sm:py-2 py-1 rounded-full transition-all duration-300 ${
               !showTechnical
                 ? 'bg-gradient-to-tr from-[#6439ff] to-[#4f75ff] text-white font-varun'
                 : 'bg-gray-700 text-gray-300 hover:bg-gray-600'

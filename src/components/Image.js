@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import profile from '../assets/musk.jpg'
+import profile from '../assets/person.png'
 const profiles = [
   {
     name: "Kadali Sai Kishore",

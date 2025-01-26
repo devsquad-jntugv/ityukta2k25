@@ -1,10 +1,16 @@
 import React from 'react'
 import {InstagramIcon,LinkedinIcon,GithubIcon,TwitterIcon} from 'lucide-react'
-import G3 from '../../assets/obama_660x.jpg'
+import G3 from '../../assets/person.png'
+
+import { motion } from 'framer-motion'
+import { fadeIn } from '../../variants'
 const SCord = () => {
   return (
     <>
-      <div className='flex flex-col justify-center items-center gap-5 sm:flex-row py-8 px-4'>
+      <motion.div variants={fadeIn('up',0.2)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{once:false,amount:0.7}} className='flex flex-col justify-center items-center gap-5 sm:flex-row py-8 px-4'>
           <div className='flex flex-row justify-center items-center px-3 py-3 gap-1 rounded-[10px] w-[320px] sm:w-[480px] h-[150px] sm:h-[180px] bg-[#0e0d0d] shadow-sm shadow-white transform hover:scale-105 transition-transform duration-300'>
             <div className='w-full px-1 py-1'>
               <img className='rounded-[50%] border-[3px]-white sm:w-[150px] sm:h-[150px] w-[140px] h-[140px] bg-cover' src={G3} alt='Fest Coordinator'/>
@@ -22,7 +28,7 @@ const SCord = () => {
           </div>
           <div className='flex flex-row justify-center items-center px-3 py-3 gap-1 rounded-[10px] w-[320px] sm:w-[480px] h-[150px] sm:h-[180px] bg-[#0e0d0d] shadow-sm shadow-white transform hover:scale-105 transition-transform duration-300'>
             <div className='w-full px-1 py-1'>
-              <img className='rounded-[50%] border-[3px]-white w-[150px] h-[150px] bg-cover' src={G3} alt='Fest Coordinator'/>
+              <img className='rounded-[50%] border-[3px]-white sm:w-[150px] sm:h-[150px] w-[140px] h-[140px] bg-cover' src={G3} alt='Fest Coordinator'/>
             </div>
             <div className='flex flex-col items-start gap-1 w-full'>
               <h1 className='text-[18px] sm:text-[20px] font-kittu font-semibold text-white'>GS Pradeep</h1>
@@ -35,7 +41,7 @@ const SCord = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
     </>
   )
 }

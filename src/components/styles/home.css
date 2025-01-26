@@ -1,0 +1,16 @@
+.hidden-section {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(100px);
+    transition: all 1s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+  }
+  @media (prefers-reduced-motion) {
+    .hidden-section {
+      transition: none;
+    }
+  }

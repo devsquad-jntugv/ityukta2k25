@@ -8,8 +8,8 @@ const Workshops = () => {
  }
   return (
     <>
-        <div className='flex flex-col w-full sm:flex-row items-center justify-center gap-5 mt-3'>
-    <div className='flex flex-col justify-center items-start gap-2 font-kittu text-white bg-[#1f1e1e] border border-2-[#000] rounded-xl w-[360px] sm:w-[420px] transform hover:scale-105 transition-transform duration-300'>
+    <div className='flex flex-col w-full sm:flex-row items-center justify-center gap-5 mt-3'>
+    <div className='flex flex-col justify-center items-start gap-2 font-kittu text-white bg-[#1f1e1e] border border-2-[#000] rounded-xl w-[360px] sm:w-[420px] transform hover:scale-105 transition-transform duration-300 hover:cursor-pointer'>
       <div className='w-full '>
         <img src={G1} alt="" className='object-cover rounded-t-xl'/>
       </div>
@@ -28,7 +28,7 @@ const Workshops = () => {
         <button onClick={()=>handelNavigate('/mern')} className='py-2 px-2 w-full font-kittu rounded-full bg-gradient-to-tr from-[#5356ff] to-[#378ce7]'>View Details</button>
       </div>
     </div>
-    <div className='flex flex-col justify-center items-start gap-2 font-kittu text-white bg-[#1f1e1e] border border-2-[#000] rounded-xl w-[360px] sm:w-[420px] transform hover:scale-105 transition-transform duration-300'>
+    <div className='flex flex-col justify-center items-start gap-2 font-kittu text-white bg-[#1f1e1e] border border-2-[#000] rounded-xl w-[360px] sm:w-[420px] transform hover:scale-105 transition-transform duration-300 hover:cursor-pointer'>
       <div className='w-full '>
         <img src={G1} alt="" className='object-cover rounded-t-xl'/>
       </div>
@@ -47,7 +47,7 @@ const Workshops = () => {
         <button className='py-2 px-2 w-full font-kittu rounded-full bg-gradient-to-tr from-[#5356ff] to-[#378ce7]'>View Details</button>
       </div>
     </div>
-    <div className='flex flex-col justify-center items-start gap-2 font-kittu text-white bg-[#1f1e1e] border border-2-[#000] rounded-xl w-[360px] sm:w-[420px] transform hover:scale-105 transition-transform duration-300'>
+    <div className='flex flex-col justify-center items-start gap-2 font-kittu text-white bg-[#1f1e1e] border border-2-[#000] rounded-xl w-[360px] sm:w-[420px] transform hover:scale-105 transition-transform duration-300 hover:cursor-pointer'>
       <div className='w-full '>
         <img src={G1} alt="" className='object-cover rounded-t-xl'/>
       </div>

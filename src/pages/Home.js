@@ -1,5 +1,6 @@
-import React,{Suspense} from 'react'
+import React,{Suspense,useEffect} from 'react'
 import '@fortawesome/fontawesome-free/css/all.min.css'
+import '../components/styles/home.css'
 import { Music } from 'lucide-react'
 import Loading from '../components/Loading.js'
 const Header=React.lazy(()=>import('../components/main/Header.js'))
@@ -13,7 +14,26 @@ const Footer=React.lazy(()=>import('../components/Footer.js'))
 const TeamCard=React.lazy(()=>import('../components/Image.js'))
 const Workshops=React.lazy(()=>import('../components/main/Workshops.js'))
 const Culturals=React.lazy(()=>import('../components/main/Culturals.js'))
+const Patrons=React.lazy(()=>import('../components/main/patrons.js'))
+const ChairPerson=React.lazy(()=>import('../components/main/ChairPerson.js'))
+const Fcord=React.lazy(()=>import('../components/main/Fcord.js'))
 const Home = () => {
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        }
+      });
+    }, {
+      threshold: 0.1
+    });
+
+    const hiddenElements =document.querySelectorAll(".hidden-section");
+    hiddenElements.forEach((el) => observer.observe(el));
+
+    return () => observer.disconnect();
+  }, []);
   return (
     <Suspense fallback={<Loading/>}>
     <Navbar/>
@@ -29,6 +49,15 @@ const Home = () => {
 <section className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-2 overflow-hidden py-8 px-4'>
   <HGuests/>
 </section>
+<section id="guests" className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-2 overflow-hidden sm:py-24 py-8 px-4'>
+  <Patrons/>
+</section>
+<section id="guests" className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-2 overflow-hidden sm:py-24 py-8 px-4 mx-auto sm:mx-0'>
+  <ChairPerson/>
+</section>
+<section id="guests" className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-2 overflow-hidden sm:py-24 py-8 px-4 mx-auto sm:mx-0'>
+  <Fcord/>
+</section>
 <section className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-2 overflow-hidden py-8 px-4'>
   <div className='flex flex-col justify-center items-center gap-4'>
     <h1 className="font-bold text-[25px] font-varun sm:text-[30px] md:text-[35px] bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent tracking-wider text-center border-b-4 border-b-[#6439ff]">STUDENT COORDINATORS</h1>
@@ -41,7 +70,8 @@ const Home = () => {
   </div>
   <Workshops/>
 </section>
-<section id="events" className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-4 overflow-hidden sm:py-24 py-8 px-4'>
+<section 
+id="events" className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-4 overflow-hidden sm:py-24 py-8 px-4'>
   <div className="flex justify-center items-center">
     <h1 className="font-bold text-[25px] font-varun sm:text-[30px] md:text-[35px] bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent tracking-wider text-center border-b-4 border-b-[#6439ff]">EVENTS</h1>
   </div>
