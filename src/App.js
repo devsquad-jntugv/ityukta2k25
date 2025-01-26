@@ -1,12 +1,19 @@
-import React from 'react';
+import React,{useEffect,useState} from 'react';
 import {BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 import './App.css';
 import Contact from './components/Contact';
 import MernPage from './components/WorkshopPages/MernPage';
+import Loading from './components/Loading';
 const Home=React.lazy(()=>import('./pages/Home'))
 function App() {
+   const [loading,setLoading]=useState(true);
+      useEffect(()=>{
+          const timer=setTimeout(()=>setLoading(false),3000);
+          return ()=>clearTimeout(timer)
+        },[]);
   return (
     <div>
+      {loading?<Loading/>:
       <Router>
         <Routes>
           <Route path='/' element={<Home/>}/>
@@ -14,6 +21,7 @@ function App() {
           <Route path='/mern' element={<MernPage/>}/>
         </Routes>
       </Router>
+      }
     </div>
   );
 }
