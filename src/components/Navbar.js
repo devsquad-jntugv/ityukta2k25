@@ -87,7 +87,6 @@ const Navbar = () => {
                     className="block w-full text-left px-3 py-2 rounded-md hover:bg-gray-700">Sponsors</button>
             <button onClick={() => { handelNavigate('/contact'); setIsOpen(false); }}
                     className="block w-full text-left px-3 py-2 rounded-md hover:bg-gray-700">Contact</button>
-            <button  onClick={() => {scrollToSection('workshops');setIsOpen(false);}} className='px-4 py-2 text-[17px] sm:text-[19px] font-kittu rounded-[5px] border border-4-white  text-white bg-gradient-to-r from-[#6439ff] to-[#4f75ff] transition-all duration-500'>Participate</button>
           </div>
         </div>
       )}
