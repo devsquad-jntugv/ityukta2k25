@@ -22,7 +22,7 @@ const MernPage = () => {
         </div>
         {/* Workshop Info */}
         <div>
-          <h1 className="text-[22px] sm:text-[25px] font-kittu mb-2 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">AI Chat-Bot Development</h1>
+          <h1 className="text-[22px] sm:text-[25px] font-kittu mb-2 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">Chat-Bot Development</h1>
           <p className="text-[15px] sm:text-[17px] font-kittu leading-relaxed mb-4">
             Join us for an intensive workshop where you'll learn the fundamentals of modern web development. This hands-on session covers React, TypeScript, and best practices for building scalable web applications. You'll work on real-world projects and learn from industry experts.
           </p>

@@ -6,7 +6,7 @@ const technicalEvents = [
     id: 1,
     title: "CodeGolf",
     description: "24-hour hackathon to build innovative solutions",
-    url: '',
+    url: '/decrypto',
   },
   {
     id: 2,
