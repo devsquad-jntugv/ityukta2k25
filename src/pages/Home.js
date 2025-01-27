@@ -18,6 +18,7 @@ const Patrons=React.lazy(()=>import('../components/main/patrons.js'))
 const ChairPerson=React.lazy(()=>import('../components/main/ChairPerson.js'))
 const Fcord=React.lazy(()=>import('../components/main/Fcord.js'))
 const Combo=React.lazy(()=>import('../components/main/Combo.js'))
+const General=React.lazy(()=>import('../components/main/General.js'))
 const Home = () => {
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -91,6 +92,12 @@ const Home = () => {
     <Music size={30} className=' text-blue-600'></Music>
   </div>
   <Culturals/>
+</section>
+<section id="general" className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-6 overflow-hidden sm:py-24 py-8 px-4'>
+  <div className="flex justify-center items-center gap-2 w-full">
+    <h1 className="font-bold text-[25px] font-varun sm:text-[30px] md:text-[35px] bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent tracking-wider text-center border-b-4 border-b-[#6439ff]">REGISTRATION</h1>
+  </div>
+  <General/>
 </section>
 <section className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-6 overflow-hidden sm:py-24 py-8 px-4'>
   <div className="flex justify-center items-center gap-2 w-full">

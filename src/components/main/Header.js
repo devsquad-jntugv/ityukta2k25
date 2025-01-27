@@ -16,8 +16,8 @@ const Header = () => {
                 <p className='font-serif text-white text-[16px] sm:text-[18px] md:text-[22px] text-center mt-[-15px]'>A Two Day National Level Tech Symposium</p>
             </div>
             <div className='mt-3 flex justify-center items-center gap-3'>
-                <a className='px-2 md:px-4 py-2 md:text-[20px] text-[18px] rounded-full border border-2-white bg-gradient-to-tr from-[#6439ff] to-[#4f75ff] text-white font-varun' href="#workshops">Register Here</a>
-                <a className='px-2 md:px-4 py-2 md:text-[20px] text-[18px] rounded-full border border-2-white hover:bg-gradient-to-tr hover:from-[#6439ff] hover:to-[#4f75ff] transition-all duration-[2s] ease-in-out text-white font-varun' href="https://chatgpt.com/c/677f92bc-3078-8002-890c-42e69b135da4" target="_blank" rel="noopener noreferrer">Watch Intro</a>
+                <a className='px-2 md:px-4 md:py-2 py-1 md:text-[20px] text-[18px] rounded-full border border-2-white bg-gradient-to-tr from-[#6439ff] to-[#4f75ff] text-white font-kittu' href="#general">Register Here</a>
+                <a className='px-2 md:px-4 md:py-2 py-1 md:text-[20px] text-[18px] rounded-full border border-2-white hover:bg-gradient-to-tr hover:from-[#6439ff] hover:to-[#4f75ff] transition-all duration-[2s] ease-in-out text-white font-varun' href="https://chatgpt.com/c/677f92bc-3078-8002-890c-42e69b135da4" target="_blank" rel="noopener noreferrer">Watch Intro</a>
             </div>
         </motion.div>
         <img

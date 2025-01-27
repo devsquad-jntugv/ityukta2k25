@@ -1,6 +1,8 @@
 import React, { useState,useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import logo from "../assets/logo.png"
+import acm from '../assets/acm logo.jpg'
+import dev from '../assets/devsquad.png'
 import { useNavigate } from 'react-router-dom';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,7 +36,7 @@ const Navbar = () => {
         <div className="flex md:justify-around justify-between items-center h-18">
           {/* Logo */}
           <div className="mt-3 bg-transparent">
-            <img src={logo} alt="logo" loading='lazy' className="h-[75px] w-[75px] rounded-full bg-white"/>
+            <a href="#home" ><img src={logo} alt="logo" loading='lazy' className="h-[70px] w-[70px] rounded-full bg-white"/></a>
           </div>
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8 text-[16px] sm:text-[18px] font-kittu">
@@ -47,8 +49,13 @@ const Navbar = () => {
             <button onClick={() => scrollToSection('sponsors')} className="hover:text-purple-500 transition-colors">Sponsors</button>
             <button onClick={()=>handelNavigate('/contact')} className="hover:text-purple-500 transition-colors">Contact</button>
           </div>
-          <div className='hidden md:block'>
+          {/*<div className='hidden md:block'>
             <button  onClick={() => scrollToSection('workshops')} className='px-4 py-2 text-[17px] sm:text-[19px] font-kittu rounded-[5px] border border-4-white bg-transparent text-white hover:bg-gradient-to-r from-[#6439ff] to-[#4f75ff] transition-colors duration-150'>Participate</button>
+          </div>*/}
+          <div className='flex flex-row gap-1 items-center'>
+          <div className="mt-3 bg-transparent mr-3 hidden sm:block">
+            <a href="#home" ><img src={acm} alt="acm" loading='lazy' className="h-[75px] w-[75px] rounded-full bg-cover"/></a>
+          </div>
           </div>
           {/* Mobile menu button */}
           <div className="md:hidden">
