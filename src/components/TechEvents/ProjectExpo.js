@@ -2,7 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom';
 import De from '../../assets/decrypto.jpg'
 import { QrCode,Calendar,Timer,Clock,NotebookPen,IndianRupee,LucideBadgeIndianRupee,ArrowLeft, AlertTriangleIcon } from 'lucide-react';
-const Decrypto=()=> {
+const ProjectExpo=()=> {
     const navigate=useNavigate();
     const handelNavigate=(path)=>{
         navigate(path);
@@ -21,9 +21,9 @@ const Decrypto=()=> {
         </div>
         {/* Workshop Info */}
         <div>
-          <h1 className="text-[22px] sm:text-[25px] font-kittu mb-2 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">De-Crypto PDF</h1>
+          <h1 className="text-[22px] sm:text-[25px] font-kittu mb-2 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">Project Expo</h1>
           <p className="text-[15px] sm:text-[17px] font-kittu leading-relaxed mb-4">
-          Decrypto PDF is an exhilarating technical event designed to challenge and enhance participants' cryptographic and problem-solving skills. Focused on decoding encrypted files and unraveling digital mysteries, this event pushes the boundaries of logical reasoning and technical acumen. 
+          Project Expo is an exhilarating technical event designed to showcase and celebrate participants' innovative projects and technical expertise. Focused on presenting creative solutions and groundbreaking ideas, this event provides a platform to demonstrate technical acumen and ingenuity, pushing the boundaries of innovation and collaboration. 
           </p>
         </div>
       </div>
@@ -36,8 +36,8 @@ const Decrypto=()=> {
           <h2 className="text-[20px] sm:text-[24px] font-semibold mb-4 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">Event Details</h2>
           <div className="text-sm space-y-2">
             <p className="flex items-center gap-1 font-kittu"><Calendar size={24} className='text-blue-500'/><strong className='font-kittu'>Date :</strong> Feb 24</p>
-            <p className="flex items-center gap-1 font-kittu"><Timer size={24} className='text-blue-500'/><strong className='font-kittu'>Duration :</strong>30 minutes</p>
-            <p className="flex items-center gap-1 font-kittu"><Clock size={24} className='text-blue-500'/><strong className='font-kittu'>Time :</strong>2pm</p>
+            <p className="flex items-center gap-1 font-kittu"><Timer size={24} className='text-blue-500'/><strong className='font-kittu'>Duration :</strong>2 Days</p>
+            <p className="flex items-center gap-1 font-kittu"><Clock size={24} className='text-blue-500'/><strong className='font-kittu'>Time :</strong>10am</p>
             <p className="flex items-center gap-1 font-kittu">
               <NotebookPen  size={24} className='text-blue-500'/>
               <strong className='font-kittu'>Registration Fees :</strong>
@@ -61,10 +61,9 @@ const Decrypto=()=> {
         <div className="bg-[#1a1a1a] px-4 py-3 rounded-lg shadow-lg flex flex-col items-start gap-2">
           <h1 className="text-[20px] sm:text-[24px] font-semibold bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">Event Description</h1>
           <ul className='list-disc ml-[30px] text-[16px] sm:text-[17px] font-kittu text-white'>
-            <li>We will assign each participant a system that contains 5 pdfs</li>
-            <li>Out of them only one pdf is not encrypted,remaining four are encrypted with a key</li>
-            <li>In the unencrypted pdf there will be a hidden key for the next pdf</li>
-            <li>Whoever unlocks all the pdfs in less time will be declared as winner and exciting rewards will be given</li>
+            <li>A student or group of students should prepare a PPT presentatin about idea</li>
+            <li>PPT should be maximum of 10 slides</li>
+            <li>The best idea among the participants will be declared as winner and exciting rewards will be given</li>
             <li><span className='text-[#ff8c2d]'>Participant certificate</span> is provided for everyone,<span className='text-[#ff8c2d]'>for winners Merit certificate</span> is given</li>
           </ul>
         </div>
@@ -74,4 +73,4 @@ const Decrypto=()=> {
   );
 }
 
-export default Decrypto
+export default ProjectExpo

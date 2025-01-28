@@ -1,79 +1,69 @@
 import React, { useState } from 'react';
-import { Music, Brain, Gamepad2, Microscope, Bot, Palette, Trophy } from 'lucide-react';
 import ludo from "../assets/ludo.jpg"
 const technicalEvents = [
   {
     id: 1,
-    title: "CodeGolf",
+    title: "Project Expo",
     description: "24-hour hackathon to build innovative solutions",
-    url: '/decrypto',
+    url: '/project-expo',
   },
   {
     id: 2,
-    title: "Code Carnivals",
+    title: "Knowledge Knockout",
     description: "Robot combat competition",
-    icon: <Bot className="w-8 h-8" />,
-    url:""
+    url:"/knock"
   },
   {
     id: 3,
-    title: "Code Debugging",
+    title: "Code Crackathon",
     description: "Technical treasure hunt with coding challenges",
-    icon: <Brain className="w-8 h-8" />,
-    url:""
+    url:"/code-crack"
   },
   {
     id: 4,
-    title: "Hireveying",
+    title: "Tech Escape",
     description: "Research paper presentation competition",
-    icon: <Microscope className="w-8 h-8" />,
-    url:""
+    url:"/tech-escape"
   },
   {
     id: 5,
-    title: "Webcanva",
+    title: "Decrypt-O-PDF",
     description: "Research paper presentation competition",
-    icon: <Microscope className="w-8 h-8" />,
-    url:""
+    url:"/decrypto"
+  },
+  {
+    id: 6,
+    title: "Bug Bounty",
+    description: "Research paper presentation competition",
+    url:"/bug-bounty"
   }
 ];
 
 const nonTechnicalEvents = [
   {
-    id: 6,
-    title: "BeatBox Battle",
-    description: "Music and dance competition",
-    icon: <Music className="w-8 h-8" />,
-    url:""
-  },
-  {
     id: 7,
-    title: "GameZone",
-    description: "Gaming tournament featuring popular titles",
-    icon: <Gamepad2 className="w-8 h-8" />,
+    title: "Treasure Hunt",
+    description: "Music and dance competition",
     url:""
   },
   {
     id: 8,
-    title: "ArtVista",
-    description: "Art and photography exhibition",
-    icon: <Palette className="w-8 h-8" />,
+    title: "Rewind & Reflect",
+    description: "Gaming tournament featuring popular titles",
     url:""
   },
   {
     id: 9,
-    title: "TalentHub",
-    description: "Cultural talent showcase",
-    icon: <Trophy className="w-8 h-8" />,
+    title: "Exploding Entertainment",
+    description: "Art and photography exhibition",
     url:""
   },
   {
     id: 10,
-    title: "BeatBox Battle",
-    description: "Music and dance competition",
-    icon: <Music className="w-8 h-8" />,
+    title: "Meme Master",
+    description: "Cultural talent showcase",
     url:""
-  }
+  },
 ];
 
 const Events=()=> {

@@ -5,6 +5,11 @@ import Contact from './components/Contact';
 import MernPage from './components/WorkshopPages/MernPage';
 import Loading from './components/Loading';
 import Decrypto from './components/TechEvents/Decrypto';
+import ProjectExpo from './components/TechEvents/ProjectExpo';
+import CodeCrack from './components/TechEvents/CodeCrack';
+import KnowKnock from './components/TechEvents/KnowKnock';
+import TechEscape from './components/TechEvents/TechEscape';
+import BugHunt from './components/TechEvents/BugHunt';
 const Home=React.lazy(()=>import('./pages/Home'))
 function App() {
    const [loading,setLoading]=useState(true);
@@ -21,6 +26,11 @@ function App() {
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/mern' element={<MernPage/>}/>
           <Route path='/decrypto' element={<Decrypto/>}/>
+          <Route path='/project-expo' element={<ProjectExpo/>}/>
+          <Route path='/code-crack' element={<CodeCrack/>}/>
+          <Route path='/knock' element={<KnowKnock/>}/>
+          <Route path='/tech-escape' element={<TechEscape/>}/>
+          <Route path='/bug-bounty' element={<BugHunt/>}/>
         </Routes>
       </Router>
       }
