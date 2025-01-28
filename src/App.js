@@ -10,6 +10,9 @@ import CodeCrack from './components/TechEvents/CodeCrack';
 import KnowKnock from './components/TechEvents/KnowKnock';
 import TechEscape from './components/TechEvents/TechEscape';
 import BugHunt from './components/TechEvents/BugHunt';
+import Treasure from './components/NonTechEvents/Treasure';
+import RewindReflect from './components/NonTechEvents/RewindReflect';
+import Meme from './components/NonTechEvents/Meme';
 const Home=React.lazy(()=>import('./pages/Home'))
 function App() {
    const [loading,setLoading]=useState(true);
@@ -31,6 +34,9 @@ function App() {
           <Route path='/knock' element={<KnowKnock/>}/>
           <Route path='/tech-escape' element={<TechEscape/>}/>
           <Route path='/bug-bounty' element={<BugHunt/>}/>
+          <Route path='/treasure-hunt' element={<Treasure/>}/>
+          <Route path='/rewind' element={<RewindReflect/>}/>
+          <Route path='/meme' element={<Meme/>}/>
         </Routes>
       </Router>
       }

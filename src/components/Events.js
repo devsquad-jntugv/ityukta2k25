@@ -44,13 +44,13 @@ const nonTechnicalEvents = [
     id: 7,
     title: "Treasure Hunt",
     description: "Music and dance competition",
-    url:""
+    url:"/treasure-hunt"
   },
   {
     id: 8,
     title: "Rewind & Reflect",
     description: "Gaming tournament featuring popular titles",
-    url:""
+    url:"/rewind"
   },
   {
     id: 9,
@@ -62,7 +62,7 @@ const nonTechnicalEvents = [
     id: 10,
     title: "Meme Master",
     description: "Cultural talent showcase",
-    url:""
+    url:"/meme"
   },
 ];
 
