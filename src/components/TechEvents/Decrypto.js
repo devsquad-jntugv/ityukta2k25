@@ -48,7 +48,6 @@ const Decrypto=()=> {
             <p className='flex items-center gap-1'><LucideBadgeIndianRupee size={24} className='text-blue-500'/><strong>UPI ID :</strong> 1234567890@sbi</p>
           </div>
         </div>
-
         {/* QR Code Section */}
         <div className="bg-[#1a1a1a] p-6 rounded-lg shadow-lg flex flex-col items-center gap-4">
           <p className="text-lg font-medium">Pay Using QR Code</p>
