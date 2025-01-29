@@ -19,17 +19,17 @@ const Fcord = () => {
                 whileInView={"show"}
                 viewport={{once:false,amount:0.5}} className='w-full flex flex-col justify-center items-center sm:flex-row mx-auto gap-5'>
   <div className="flex flex-col sm:flex-row items-center rounded-sm shadow-sm shadow-white mt-3 w-full max-w-lg">
-  <div className="w-full sm:w-[250px] h-[220px] flex-shrink-0">
+  <div className="w-full sm:w-[220px] h-[220px] flex-shrink-0">
     <img
       className="w-full h-full object-cover rounded-sm"
       src={image}
       alt="HOD"
     />
   </div>
-  <div className="flex flex-col justify-start items-start py-4 px-4 sm:px-6 w-full">
+  <div className="flex flex-col justify-start items-start py-4 px-2 sm:px-4 w-full">
     <div className="flex flex-col items-start gap-2">
       <h1 className="text-[19px] sm:text-[21px] font-kittu text-white leading-tight">
-        Mrs.R.Roje Spandana
+        Mrs.Roje Spandana Rajeti
       </h1>
       <p className="text-[16px] sm:text-[17px] font-kittu text-[#5131e1]">
         Faculty Coordinator
@@ -61,17 +61,17 @@ const Fcord = () => {
   </div>
 </div>
 <div className="flex flex-col sm:flex-row items-center rounded-sm shadow-sm shadow-white mt-3 w-full max-w-lg">
-  <div className="w-full sm:w-[250px] h-[220px] flex-shrink-0">
+  <div className="w-full sm:w-[220px] h-[220px] flex-shrink-0">
     <img
       className="w-full h-full object-cover rounded-sm"
       src={image}
       alt="HOD"
     />
   </div>
-  <div className="flex flex-col justify-start items-start py-4 px-4 sm:px-6 w-full">
+  <div className="flex flex-col justify-start items-start py-4 px-2 sm:px-4 w-full">
     <div className="flex flex-col items-start gap-2">
       <h1 className="text-[19px] sm:text-[21px] font-kittu text-white leading-tight">
-        Mrs.B.Manasa
+        Mrs.Bobbadi Manasa
       </h1>
       <p className="text-[16px] sm:text-[17px] font-kittu text-[#5131e1]">
         Faculty Coordinator

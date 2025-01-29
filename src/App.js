@@ -13,6 +13,8 @@ import BugHunt from './components/TechEvents/BugHunt';
 import Treasure from './components/NonTechEvents/Treasure';
 import RewindReflect from './components/NonTechEvents/RewindReflect';
 import Meme from './components/NonTechEvents/Meme';
+import PowerBI from './components/WorkshopPages/PowerBI';
+import Devops from './components/WorkshopPages/Devops';
 const Home=React.lazy(()=>import('./pages/Home'))
 function App() {
    const [loading,setLoading]=useState(true);
@@ -27,7 +29,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/contact' element={<Contact/>}/>
-          <Route path='/mern' element={<MernPage/>}/>
+          <Route path='/chatbot' element={<MernPage/>}/>
           <Route path='/decrypto' element={<Decrypto/>}/>
           <Route path='/project-expo' element={<ProjectExpo/>}/>
           <Route path='/code-crack' element={<CodeCrack/>}/>
@@ -37,6 +39,8 @@ function App() {
           <Route path='/treasure-hunt' element={<Treasure/>}/>
           <Route path='/rewind' element={<RewindReflect/>}/>
           <Route path='/meme' element={<Meme/>}/>
+          <Route path='/powerbi' element={<PowerBI/>}/>
+          <Route path='/devops' element={<Devops/>}/>
         </Routes>
       </Router>
       }
