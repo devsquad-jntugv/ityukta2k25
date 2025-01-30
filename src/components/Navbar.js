@@ -2,7 +2,6 @@ import React, { useState,useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import logo from "../assets/logo.png"
 import acm from '../assets/acm logo.jpg'
-import dev from '../assets/devsquad.png'
 import { useNavigate } from 'react-router-dom';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,7 +35,7 @@ const Navbar = () => {
         <div className="flex md:justify-around justify-between items-center h-18">
           {/* Logo */}
           <div className="mt-3 bg-transparent">
-            <a href="#home" ><img src={logo} alt="logo" loading='lazy' className="h-[70px] w-[70px] rounded-full bg-white"/></a>
+            <a href="#home" ><img src={logo} alt="logo" loading='lazy' className="h-[75px] w-[75px] rounded-full"/></a>
           </div>
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8 text-[16px] sm:text-[18px] font-kittu">
