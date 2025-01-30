@@ -2,7 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom';
 import De from '../../assets/decrypto.jpg'
 import { QrCode,Calendar,Timer,Clock,NotebookPen,IndianRupee,LucideBadgeIndianRupee,ArrowLeft, AlertTriangleIcon } from 'lucide-react';
-const TechEscape=()=> {
+const ExplodeEntertain=()=> {
     const navigate=useNavigate();
     const handelNavigate=(path)=>{
         navigate(path);
@@ -21,9 +21,9 @@ const TechEscape=()=> {
         </div>
         {/* Workshop Info */}
         <div>
-          <h1 className="text-[22px] sm:text-[25px] font-kittu mb-2 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">Tech Escape</h1>
+          <h1 className="text-[22px] sm:text-[25px] font-kittu mb-2 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">Exploding Entertainment</h1>
           <p className="text-[15px] sm:text-[17px] font-kittu leading-relaxed mb-4">
-          Knowledge Knockout is an engaging technical event designed to test participants' expertise and understanding in a particular topic.The event challenges their knowledge and analytical skills.
+          Exploding Entertainment is a thrilling and fun-filled event where participants put their movie knowledge to the test through exciting quizzes and challenges.From iconic dialogues to legendary scenes, this event is a paradise for all movie buffs.
           </p>
         </div>
       </div>
@@ -42,7 +42,7 @@ const TechEscape=()=> {
               <NotebookPen  size={24} className='text-blue-500'/>
               <strong className='font-kittu'>Registration Fees :</strong>
               <IndianRupee size={16} className="ml-2 text-yellow-500"/>
-              50
+              50/person
             </p>
             <p className='flex flex-row items-center gap-1 text-[16px] sm:text-[17px] font-kittu'><AlertTriangleIcon size={24} className='text-red-600'/>Before registering this event make sure that your general registration is completed</p>
             <p className='flex items-center gap-1'><LucideBadgeIndianRupee size={24} className='text-blue-500'/><strong>UPI ID :</strong> 1234567890@sbi</p>
@@ -61,11 +61,11 @@ const TechEscape=()=> {
         <div className="bg-[#1a1a1a] px-4 py-3 rounded-lg shadow-lg flex flex-col items-start gap-2">
           <h1 className="text-[20px] sm:text-[24px] font-semibold bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">Event Description</h1>
           <ul className='list-disc ml-[30px] text-[16px] sm:text-[17px] font-kittu text-white'>
-            <li>Its's a team game,a question is  revealed to team at once</li>
-            <li>event consists of 7 levels,each level has 5 minutes.</li>
-            <li>team will be rewarded with coins(varies with time) when they solve within time limit or else emilinated.</li>
-            <li>whoever cracks all the 7 levels and collects most coins will be considered as winners</li>
-            <li><span className='text-[#ff8c2d]'>Participant certificate</span> is provided for everyone,<span className='text-[#ff8c2d]'>for winners Merit certificate</span> is given</li>
+            <li>This event is the test for movie knowledge of the participants.</li>
+            <li>It is a multiple round game</li>
+            <li>it may be anything like bgm,dialogues,scenes etc.</li>
+            <li>Whoever guesses the correct in less time will be qualified for next round</li>
+            <li>whoever clears all rounds will be crowned as winners and exciting prizes will be given</li>
           </ul>
         </div>
       </div>
@@ -74,4 +74,4 @@ const TechEscape=()=> {
   );
 }
 
-export default TechEscape;
+export default ExplodeEntertain;

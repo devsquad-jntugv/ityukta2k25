@@ -43,7 +43,6 @@ const Patrons = () => {
         whileInView={"show"}
         viewport={{once:false,amount:0.7}}  className='flex flex-col justify-center items-center gap-4'>
     <h1 className="font-bold text-[25px] font-varun sm:text-[30px] md:text-[35px] bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent tracking-wider text-center border-b-4 border-b-[#6439ff]">OUR PATRONS</h1>
-    <p className='text-[16px] sm:text-[18px] font-serif text-white text-center'>Meet our distinguished chief guests who are shaping the future of technology</p>
     </motion.div>
     <Chief chiefGuests={chiefGuests}/>
     </>

@@ -15,6 +15,7 @@ import RewindReflect from './components/NonTechEvents/RewindReflect';
 import Meme from './components/NonTechEvents/Meme';
 import PowerBI from './components/WorkshopPages/PowerBI';
 import Devops from './components/WorkshopPages/Devops';
+import ExplodeEntertain from './components/NonTechEvents/ExplodeEntertain';
 const Home=React.lazy(()=>import('./pages/Home'))
 function App() {
    const [loading,setLoading]=useState(true);
@@ -41,6 +42,7 @@ function App() {
           <Route path='/meme' element={<Meme/>}/>
           <Route path='/powerbi' element={<PowerBI/>}/>
           <Route path='/devops' element={<Devops/>}/>
+          <Route path='/entertain' element={<ExplodeEntertain/>}/>
         </Routes>
       </Router>
       }

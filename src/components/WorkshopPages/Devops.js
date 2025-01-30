@@ -1,6 +1,6 @@
 import React from 'react';
 import AI from '../../assets/Chat.jpg';
-import { ArrowLeft, Calendar, CheckCircle, Clock, IndianRupee, LucideBadgeIndianRupee, NotebookPen, PenLineIcon, QrCode, Timer } from 'lucide-react';
+import { ArrowLeft, Calendar, CheckCircle, Clock, IndianRupee, LucideBadgeIndianRupee, NotebookPen, PenLineIcon, QrCode, Timer,AlertTriangleIcon } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 const Devops = () => {
@@ -43,19 +43,19 @@ const Devops = () => {
             <ul className="space-y-2 text-[17px] sm:[18px] font-kittu">
               <li className="flex items-center">
                 <CheckCircle size={24} className="text-green-500 mr-2" />
-                Programming Fundamentals
+                Learn the principles and benefits of DevOps.
               </li>
               <li className="flex items-center">
                 <CheckCircle size={24} className="text-green-500 mr-2" />
-                Natural Language Processing
+                Gain hands-on experience with CI/CD pipelines.
               </li>
               <li className="flex items-center">
                 <CheckCircle size={24} className="text-green-500 mr-2" />
-                Machine Learning & Deep Learning
+                Learn how to automate software testing and deployment.
               </li>
               <li className="flex items-center">
                 <CheckCircle size={24} className="text-green-500 mr-2" />
-                API Integration
+                Learn about cloud services (AWS, Azure, GCP) in a DevOps environment.
               </li>
             </ul>
           </div>
@@ -69,8 +69,8 @@ const Devops = () => {
         <div className="bg-[#1a1a1a] p-6 rounded-lg shadow-lg">
           <h2 className="text-[20px] sm:text-[24px] font-semibold mb-4 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">Workshop Details</h2>
           <div className="text-sm space-y-2 text-[16px] sm:text-[17px] font-kittu">
-            <p className="flex items-center gap-1"><Calendar size={24} className='text-blue-500'/><strong className='font-kittu'>Date :</strong> Feb 24 and 25</p>
-            <p className="flex items-center gap-1"><Timer size={24} className='text-blue-500'/><strong className='font-kittu'>Duration :</strong> 2 days</p>
+            <p className="flex items-center gap-1"><Calendar size={24} className='text-blue-500'/><strong className='font-kittu'>Date :</strong> Feb 24th</p>
+            <p className="flex items-center gap-1"><Timer size={24} className='text-blue-500'/><strong className='font-kittu'>Duration :</strong>1 day</p>
             <p className="flex items-center gap-1"><Clock size={24} className='text-blue-500'/><strong className='font-kittu'>Time :</strong> 10am to 4pm</p>
             <p className="flex items-center gap-1">
               <NotebookPen  size={24} className='text-blue-500'/>
@@ -78,6 +78,7 @@ const Devops = () => {
               <IndianRupee size={16} className="ml-2 text-yellow-500" />
               600
             </p>
+            <p className='flex flex-row items-center gap-1 text-[16px] sm:text-[17px] font-kittu'><AlertTriangleIcon size={24} className='text-red-600'/>Before registering this event make sure that your general registration is completed</p>
             <p className='flex items-center gap-1'><LucideBadgeIndianRupee size={24} className='text-blue-500'/><strong>UPI ID :</strong> 1234567890@sbi</p>
           </div>
         </div>

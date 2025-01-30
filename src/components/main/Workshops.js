@@ -18,7 +18,7 @@ const Workshops = () => {
       </div>
       <div className='px-3 mb-3'>
         <h1 className='text-[18px] sm:text-[22px] font-varun text-transparent bg-gradient-to-tr from-[#378ce7] to-[#67c6e3]  bg-clip-text flex flex-row gap-1 '>CHAT-BOT DEVELOPMENT <BotIcon size={28} className='text-white'/></h1>
-        <p>Meet our distinguished guests of honours who are shaping the future of technology</p>
+        <p>Join our expert mentors who are transforming the future of chatbot development.</p>
         <div className=''>
           <h1 className='text-[17px] sm:text-[18px] text-transparent bg-gradient-to-tr from-[#ff204e] to-[#a0153e] bg-clip-text font-varun'>Outcomes:</h1>
           <ul className='list-disc px-3 ml-3'>
@@ -37,7 +37,7 @@ const Workshops = () => {
       </div>
       <div className='px-3 mb-3'>
         <h1 className='text-[18px] sm:text-[22px] font-varun text-transparent bg-gradient-to-tr from-[#378ce7] to-[#67c6e3]  bg-clip-text flex flex-row gap-1'>DEVOPS-CODE TO CLOUD</h1>
-        <p>Meet our distinguished guests of honours who are shaping the future of technology</p>
+        <p>Join our expert mentors who are redefining the future of software development and operations.</p>
         <div className=''>
           <h1 className='text-[17px] sm:text-[18px] text-transparent bg-gradient-to-tr from-[#ff204e] to-[#a0153e] bg-clip-text font-varun'>Outcomes:</h1>
           <ul className='list-disc px-3 ml-3'>
@@ -56,7 +56,7 @@ const Workshops = () => {
       </div>
       <div className='px-3 mb-3'>
         <h1 className='text-[18px] sm:text-[22px] font-varun text-transparent bg-gradient-to-tr from-[#378ce7] to-[#67c6e3]  bg-clip-text flex flex-row gap-1'>POWER BI</h1>
-        <p>Meet our distinguished guests of honours who are shaping the future of technology</p>
+        <p>Join our skilled instructors who are unlocking the power of data visualization and analytics.</p>
         <div className=''>
           <h1 className='text-[17px] sm:text-[18px] text-transparent bg-gradient-to-tr from-[#ff204e] to-[#a0153e] bg-clip-text font-varun'>Outcomes:</h1>
           <ul className='list-disc px-3 ml-3'>

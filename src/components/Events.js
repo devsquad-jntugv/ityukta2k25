@@ -56,7 +56,7 @@ const nonTechnicalEvents = [
     id: 9,
     title: "Exploding Entertainment",
     description: "Art and photography exhibition",
-    url:""
+    url:"/entertain"
   },
   {
     id: 10,

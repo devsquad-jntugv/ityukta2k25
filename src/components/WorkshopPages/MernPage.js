@@ -1,6 +1,6 @@
 import React from 'react';
 import AI from '../../assets/Chat.jpg';
-import { ArrowLeft, Calendar, CheckCircle, Clock, IndianRupee, LucideBadgeIndianRupee, NotebookPen, PenLineIcon, QrCode, Timer } from 'lucide-react';
+import { ArrowLeft, Calendar, CheckCircle, Clock, IndianRupee, LucideBadgeIndianRupee, NotebookPen, PenLineIcon, QrCode, Timer,AlertTriangleIcon } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 const MernPage = () => {
@@ -24,7 +24,7 @@ const MernPage = () => {
         <div>
           <h1 className="text-[22px] sm:text-[25px] font-kittu mb-2 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">Chat-Bot Development</h1>
           <p className="text-[15px] sm:text-[17px] font-kittu leading-relaxed mb-4">
-            Join us for an intensive workshop where you'll learn the fundamentals of modern web development. This hands-on session covers React, TypeScript, and best practices for building scalable web applications. You'll work on real-world projects and learn from industry experts.
+          Join us for an intensive workshop where you'll learn the fundamentals of modern chatbot development. This hands-on session covers Natural Language Processing (NLP), AI-driven conversation design, and integration with popular platforms. You'll work on real-world projects and learn from our resource persons, equipping you with the skills to build intelligent, interactive chatbots.
           </p>
 
           {/* Prerequisites */}
@@ -78,6 +78,7 @@ const MernPage = () => {
               <IndianRupee size={16} className="ml-2 text-yellow-500" />
               600
             </p>
+            <p className='flex flex-row items-center gap-1 text-[16px] sm:text-[17px] font-kittu'><AlertTriangleIcon size={24} className='text-red-600'/>Before registering this event make sure that your general registration is completed</p>
             <p className='flex items-center gap-1'><LucideBadgeIndianRupee size={24} className='text-blue-500'/><strong>UPI ID :</strong> 1234567890@sbi</p>
           </div>
         </div>

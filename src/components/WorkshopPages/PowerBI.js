@@ -1,6 +1,6 @@
 import React from 'react';
 import AI from '../../assets/Chat.jpg';
-import { ArrowLeft, Calendar, CheckCircle, Clock, IndianRupee, LucideBadgeIndianRupee, NotebookPen, PenLineIcon, QrCode, Timer } from 'lucide-react';
+import { ArrowLeft, Calendar, CheckCircle, Clock, IndianRupee, LucideBadgeIndianRupee, NotebookPen, PenLineIcon, QrCode, Timer,AlertTriangleIcon } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 const PowerBI = () => {
@@ -43,19 +43,19 @@ const PowerBI = () => {
             <ul className="space-y-2 text-[17px] sm:[18px] font-kittu">
               <li className="flex items-center">
                 <CheckCircle size={24} className="text-green-500 mr-2" />
-                Programming Fundamentals
+                Learn how to create interactive and insightful dashboards using Power BI’s visualization tools.
               </li>
               <li className="flex items-center">
                 <CheckCircle size={24} className="text-green-500 mr-2" />
-                Natural Language Processing
+                Transform & Model Data
               </li>
               <li className="flex items-center">
                 <CheckCircle size={24} className="text-green-500 mr-2" />
-                Machine Learning & Deep Learning
+                Connect Multiple Data Sources
               </li>
               <li className="flex items-center">
                 <CheckCircle size={24} className="text-green-500 mr-2" />
-                API Integration
+                Build Real-Time Reports 
               </li>
             </ul>
           </div>
@@ -78,6 +78,7 @@ const PowerBI = () => {
               <IndianRupee size={16} className="ml-2 text-yellow-500" />
               600
             </p>
+            <p className='flex flex-row items-center gap-1 text-[16px] sm:text-[17px] font-kittu'><AlertTriangleIcon size={24} className='text-red-600'/>Before registering this event make sure that your general registration is completed</p>
             <p className='flex items-center gap-1'><LucideBadgeIndianRupee size={24} className='text-blue-500'/><strong>UPI ID :</strong> 1234567890@sbi</p>
           </div>
         </div>
