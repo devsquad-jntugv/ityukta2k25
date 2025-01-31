@@ -7,7 +7,8 @@ import { BotIcon} from 'lucide-react';
 const Workshops = () => {
  const navigate=useNavigate();
  const handelNavigate=(path)=>{
-    navigate(path);
+   alert('make sure your general registration is done');
+   navigate(path)
  }
   return (
     <>

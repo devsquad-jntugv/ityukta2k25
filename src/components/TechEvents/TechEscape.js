@@ -23,7 +23,7 @@ const TechEscape=()=> {
         <div>
           <h1 className="text-[22px] sm:text-[25px] font-kittu mb-2 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">Tech Escape</h1>
           <p className="text-[15px] sm:text-[17px] font-kittu leading-relaxed mb-4">
-          Knowledge Knockout is an engaging technical event designed to test participants' expertise and understanding in a particular topic.The event challenges their knowledge and analytical skills.
+          Tech Escape is an exciting technical event designed to assess participants' knowledge and problem-solving skills in programming. The event challenges their coding expertise, logical thinking, and debugging abilities to solve complex programming puzzles and escape within the given time.
           </p>
         </div>
       </div>

@@ -18,7 +18,7 @@ const Footer = () => {
              
              <a href="https://www.instagram.com/ityukta_2k25?igsh=ZjZ3NDJ2NTB5MDl2" target='_blank' rel="noopener noreferrer"><Instagram size={22} className='hover:bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 px-[1px] py-[1px] rounded-[2px] hover:cursor-pointer'/></a>
              <Linkedin size={22} className='hover:bg-blue-500 px-[1px] py-[1px] rounded-[2px] hover:cursor-pointer'/>
-             <Youtube size={22} className='hover:bg-red-600 px-[1px] py-[1px] rounded-[2px] hover:cursor-pointer'/>
+             <a href="https://www.youtube.com/watch?v=QI9pxSfj4a4" target="_blank" rel="noopener noreferrer"><Youtube size={22} className='hover:bg-red-600 px-[1px] py-[1px] rounded-[2px] hover:cursor-pointer'/></a>
            </div>
            <p className='text-[16px] font-varun'>Email: ityukta2k25@gmail.com</p>
          </div>

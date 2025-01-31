@@ -53,7 +53,7 @@ const Contact = () => {
             </div>
             <div className='bg-white px-3 py-3 rounded-[10px]'>
                 <h1 className='text-[20px] text-black font-kittu font-bold '>Google Maps</h1>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3829.9416772721406!2d83.37305143699739!3d18.15109001465625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3bef0baf9f2a11%3A0xdb0b518115b27e07!2sJNTU-GV%20COLLEGE%20OF%20ENGINEERING%20VIZIANAGARAM!5e0!3m2!1sen!2sin!4v1736930388038!5m2!1sen!2sin" width="500" height="380" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='px-2 py-2 sm:w-[400px] md:w-[500px] w-[310px] sm:h-[350px] md:h-[380px] h-[300px]'></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3829.9416772721406!2d83.37305143699739!3d18.15109001465625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3bef0baf9f2a11%3A0xdb0b518115b27e07!2sJNTU-GV%20COLLEGE%20OF%20ENGINEERING%20VIZIANAGARAM!5e0!3m2!1sen!2sin!4v1736930388038!5m2!1sen!2sin" width="500" height="380" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='px-2 py-2 sm:w-[400px] md:w-[500px] w-[310px] sm:h-[350px] md:h-[380px] h-[300px]'>.</iframe>
             </div>
         </section>
     </div>
