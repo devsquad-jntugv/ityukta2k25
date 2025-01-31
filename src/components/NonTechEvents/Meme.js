@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
-import De from '../../assets/decrypto.jpg'
+import De from '../../assets/meme.jpg'
 import { QrCode,Calendar,Timer,Clock,NotebookPen,IndianRupee,LucideBadgeIndianRupee,ArrowLeft, AlertTriangleIcon } from 'lucide-react';
 const Meme=()=> {
     const navigate=useNavigate();
@@ -64,7 +64,7 @@ const Meme=()=> {
             <li>A topic is given for participants</li>
             <li>Based on that humorous memes should be created</li>
             <li>whoever creates most effective meme will be crowned as winner</li>
-            <li>Winning will be rewarded</li>
+            <li>Winner will be rewarded</li>
           </ul>
         </div>
       </div>

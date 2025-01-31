@@ -1,5 +1,5 @@
 import React from 'react';
-import AI from '../../assets/Chat.jpg';
+import dev from '../../assets/devops.jpg';
 import { ArrowLeft, Calendar, CheckCircle, Clock, IndianRupee, LucideBadgeIndianRupee, NotebookPen, PenLineIcon, QrCode, Timer,AlertTriangleIcon } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
@@ -18,7 +18,7 @@ const Devops = () => {
       <div className="flex flex-col gap-4 sm:w-1/2">
         {/* Image Section */}
         <div className="w-full">
-          <img className="w-full h-[500px] rounded-t-[10px] bg-cover" src={AI} alt="Workshop" />
+          <img className="w-full rounded-t-[10px] bg-cover" src={dev} alt="Workshop" />
         </div>
         {/* Workshop Info */}
         <div>
@@ -64,7 +64,7 @@ const Devops = () => {
       </div>
 
       {/* Right Section */}
-      <div className="flex flex-col gap-6 sm:w-1/2">
+      <div className="flex flex-col gap-6">
         {/* Workshop Details */}
         <div className="bg-[#1a1a1a] p-6 rounded-lg shadow-lg">
           <h2 className="text-[20px] sm:text-[24px] font-semibold mb-4 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">Workshop Details</h2>

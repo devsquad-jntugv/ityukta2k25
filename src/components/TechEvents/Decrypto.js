@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
-import De from '../../assets/decrypto.jpg'
+import De from '../../assets/decrypt.jpg'
 import { QrCode,Calendar,Timer,Clock,NotebookPen,IndianRupee,LucideBadgeIndianRupee,ArrowLeft, AlertTriangleIcon } from 'lucide-react';
 const Decrypto=()=> {
     const navigate=useNavigate();

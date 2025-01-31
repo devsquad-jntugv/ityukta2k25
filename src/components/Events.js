@@ -1,39 +1,54 @@
 import React, { useState } from 'react';
-import ludo from "../assets/ludo.jpg"
+import treasure from "../assets/treasure.jpg"
+import explode from "../assets/explode.jpg"
+import reflect from "../assets/reflect.jpg"
+import meme from "../assets/meme.jpg"
+import bounty from "../assets/bounty.jpg"
+import decrypt from "../assets/decrypt.jpg"
+import codecrack from "../assets/codecrack.jpg"
+import knockknock from "../assets/knockknock.jpg"
+import escape from "../assets/escape.jpg"
+import project from "../assets/project.jpg"
 const technicalEvents = [
   {
     id: 1,
     title: "Project Expo",
+    image:project,
     description: "24-hour hackathon to build innovative solutions",
     url: '/project-expo',
   },
   {
     id: 2,
     title: "Knowledge Knockout",
+    image:knockknock,
     description: "Robot combat competition",
     url:"/knock"
   },
   {
     id: 3,
     title: "Code Crackathon",
+    image:codecrack,
     description: "Technical treasure hunt with coding challenges",
     url:"/code-crack"
   },
   {
     id: 4,
     title: "Tech Escape",
+    image:escape,
     description: "Research paper presentation competition",
     url:"/tech-escape"
   },
   {
     id: 5,
     title: "Decrypt-O-PDF",
+    image:decrypt,
     description: "Research paper presentation competition",
     url:"/decrypto"
   },
   {
     id: 6,
     title: "Bug Bounty",
+    image:bounty,
     description: "Research paper presentation competition",
     url:"/bug-bounty"
   }
@@ -43,24 +58,28 @@ const nonTechnicalEvents = [
   {
     id: 7,
     title: "Treasure Hunt",
+    image:treasure,
     description: "Music and dance competition",
     url:"/treasure-hunt"
   },
   {
     id: 8,
     title: "Rewind & Reflect",
+    image:reflect,
     description: "Gaming tournament featuring popular titles",
     url:"/rewind"
   },
   {
     id: 9,
     title: "Exploding Entertainment",
+    image:explode,
     description: "Art and photography exhibition",
     url:"/entertain"
   },
   {
     id: 10,
     title: "Meme Master",
+    image:meme,
     description: "Cultural talent showcase",
     url:"/meme"
   },
@@ -100,7 +119,7 @@ const Events=()=> {
             <div key={event.id} className="relative rounded-lg bg-black overflow-hidden group">
       {/* Image */}
                <div>
-                <img src={ludo} alt="Event1" className="object-cover w-full h-full" loading='lazy'/>
+                <img src={event.image} alt="Event1" className="object-cover w-full h-full" loading='lazy'/>
                </div>
 
       {/* Hover Content */}

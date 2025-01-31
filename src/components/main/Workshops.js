@@ -1,8 +1,8 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import AI from '../../assets/Chat.jpg'
-import PB from '../../assets/powerbi.jpg'
-import Dev from '../../assets/Devops.jpg'
+import AI from '../../assets/chatbot.jpg'
+import PB from '../../assets/power.jpg'
+import Dev from '../../assets/devops.jpg'
 import { BotIcon} from 'lucide-react';
 const Workshops = () => {
  const navigate=useNavigate();

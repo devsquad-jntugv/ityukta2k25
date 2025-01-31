@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
-import De from '../../assets/decrypto.jpg'
+import De from '../../assets/explode.jpg'
 import { QrCode,Calendar,Timer,Clock,NotebookPen,IndianRupee,LucideBadgeIndianRupee,ArrowLeft, AlertTriangleIcon } from 'lucide-react';
 const ExplodeEntertain=()=> {
     const navigate=useNavigate();
@@ -17,7 +17,7 @@ const ExplodeEntertain=()=> {
       <div className="flex flex-col gap-4 sm:w-1/2">
         {/* Image Section */}
         <div className="w-full">
-          <img className="w-full h-[500px] rounded-t-[10px] bg-cover" src={De} alt="Event" />
+          <img className="w-full rounded-t-[10px] bg-cover" src={De} alt="Event" />
         </div>
         {/* Workshop Info */}
         <div>
