@@ -1,5 +1,5 @@
 import React from 'react';
-import dev from '../../assets/devops.jpg';
+import dev from '../../assets/Devops.jpg';
 import { ArrowLeft, Calendar, CheckCircle, Clock, IndianRupee, LucideBadgeIndianRupee, NotebookPen, PenLineIcon, QrCode, Timer,AlertTriangleIcon } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
