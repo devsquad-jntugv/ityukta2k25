@@ -7,7 +7,7 @@ const Header=React.lazy(()=>import('../components/main/Header.js'))
 const Navbar=React.lazy(()=>import('../components/Navbar.js'))
 const About =React.lazy(()=>import('../components/main/About.js'))
 const SCord=React.lazy(()=>import('../components/main/SCord.js'))
-const HGuests=React.lazy(()=>import('../components/main/HGuests.js'))
+// const HGuests=React.lazy(()=>import('../components/main/HGuests.js'))
 const CGuests=React.lazy(()=>import('../components/main/CGuests.js'))
 const Events=React.lazy(()=>import('../components/Events.js'))
 const Footer=React.lazy(()=>import('../components/Footer.js'))
@@ -48,9 +48,9 @@ const Home = () => {
 <section id="guests" className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-2 overflow-hidden sm:py-24 py-8 px-4'>
   <CGuests/>
 </section>
-<section className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-2 overflow-hidden py-8 px-4'>
+{/*<section className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-2 overflow-hidden py-8 px-4'>
   <HGuests/>
-</section>
+</section>*/}
 <section id="guests" className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-2 overflow-hidden sm:py-24 py-8 px-4'>
   <Patrons/>
 </section>
