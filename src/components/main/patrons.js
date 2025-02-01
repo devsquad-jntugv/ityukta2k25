@@ -6,9 +6,9 @@ import Image from '../../assets/person.png'
 const Patrons = () => {
     const chiefGuests = [
             {
-              name: "Dr. Sarah Mitchell",
-              role: "AI Research Director",
-              company: "DeepMind",
+              name: "Prof. R. Rajeswara Rao",
+              role: "Principal",
+              company: "JNTUGV",
               image: Image,
               bio: "Leading researcher in artificial intelligence and machine learning, with groundbreaking work in neural networks.",
               session: "Future of AI in Technology",
@@ -21,9 +21,9 @@ const Patrons = () => {
               }
             },
             {
-              name: "Mark Anderson",
-              role: "Chief Technology Officer",
-              company: "SpaceX",
+              name: "Dr. G. J. Naga Raju",
+              role: "Vice Principal",
+              company: "JNTUGV",
               image: Image,
               bio: "Pioneering engineer with extensive experience in spacecraft systems and sustainable energy solutions.",
               session: "Space Technology and Innovation",
