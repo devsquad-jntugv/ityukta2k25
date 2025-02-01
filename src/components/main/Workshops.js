@@ -15,7 +15,7 @@ const Workshops = () => {
     <div className='flex flex-col w-full sm:flex-row items-center justify-center gap-5 mt-3'>
     <div className='flex flex-col justify-center items-start gap-2 font-kittu text-white bg-[#1f1e1e] border border-2-[#000] rounded-xl w-[360px] sm:w-[420px] transform hover:scale-105 transition-transform duration-300 hover:cursor-pointer'>
       <div className='w-full '>
-        <img src={AI} alt="" className='object-cover rounded-t-xl h-[220px] w-full'/>
+        <img src={AI} alt="" className='rounded-t-xl h-[220px] w-full'/>
       </div>
       <div className='px-3 mb-3'>
         <h1 className='text-[18px] sm:text-[22px] font-varun text-transparent bg-gradient-to-tr from-[#378ce7] to-[#67c6e3]  bg-clip-text flex flex-row gap-1 '>CHAT-BOT DEVELOPMENT <BotIcon size={28} className='text-white'/></h1>
@@ -33,7 +33,7 @@ const Workshops = () => {
     </div>
     <div className='flex flex-col justify-center items-start gap-2 font-kittu text-white bg-[#1f1e1e] border border-2-[#000] rounded-xl w-[360px] sm:w-[420px] transform hover:scale-105 transition-transform duration-300 hover:cursor-pointer'>
       <div className='w-full '>
-        <img src={Dev} alt="" className='object-cover rounded-t-xl h-[220px] w-full'/>
+        <img src={Dev} alt="" className=' rounded-t-xl h-[220px] w-full'/>
       </div>
       <div className='px-3 mb-3'>
         <h1 className='text-[18px] sm:text-[22px] font-varun text-transparent bg-gradient-to-tr from-[#378ce7] to-[#67c6e3]  bg-clip-text flex flex-row gap-1'>DEVOPS-CODE TO CLOUD</h1>
@@ -51,7 +51,7 @@ const Workshops = () => {
     </div>
     <div className='flex flex-col justify-center items-start gap-2 font-kittu text-white bg-[#1f1e1e] border border-2-[#000] rounded-xl w-[360px] sm:w-[420px] transform hover:scale-105 transition-transform duration-300 hover:cursor-pointer'>
       <div className='w-full '>
-        <img src={PB} alt="" className='object-cover rounded-t-xl h-[220px] w-full'/>
+        <img src={PB} alt="" className=' rounded-t-xl h-[220px] w-full'/>
       </div>
       <div className='px-3 mb-3'>
         <h1 className='text-[18px] sm:text-[22px] font-varun text-transparent bg-gradient-to-tr from-[#378ce7] to-[#67c6e3]  bg-clip-text flex flex-row gap-1'>POWER BI</h1>
