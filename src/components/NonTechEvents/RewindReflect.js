@@ -18,7 +18,7 @@ const RewindReflect=()=> {
       <div className="flex flex-col gap-4 sm:w-1/2">
         {/* Image Section */}
         <div className="w-full">
-          <img className="w-full h-[500px] rounded-t-[10px] bg-cover" src={De} alt="Event" />
+          <img className="w-full rounded-t-[10px] bg-cover" src={De} alt="Event" />
         </div>
         {/* Workshop Info */}
         <div>
