@@ -14,42 +14,42 @@ const technicalEvents = [
     id: 1,
     title: "Project Expo",
     image:project,
-    description: "24-hour hackathon to build innovative solutions",
+    description: "showcase groundbreaking technical innovations",
     url: '/project-expo',
   },
   {
     id: 2,
     title: "Knowledge Knockout",
     image:knockknock,
-    description: "Robot combat competition",
+    description: "challenge and test your expertise in a specific subject.",
     url:"/knock"
   },
   {
     id: 3,
     title: "Code Crackathon",
     image:codecrack,
-    description: "Technical treasure hunt with coding challenges",
+    description: "test participants' ability to predict the output ",
     url:"/code-crack"
   },
   {
     id: 4,
     title: "Tech Escape",
     image:escape,
-    description: "Research paper presentation competition",
+    description: "Problem Solving Challenge to test participants' skills ",
     url:"/tech-escape"
   },
   {
     id: 5,
     title: "Decrypt-O-PDF",
     image:decrypt,
-    description: "Research paper presentation competition",
+    description: "Challenge to unlock encrypted PDFs ",
     url:"/decrypto"
   },
   {
     id: 6,
     title: "Bug Bounty",
     image:bounty,
-    description: "Research paper presentation competition",
+    description: "test and enhance your debugging skills",
     url:"/bug-bounty"
   }
 ];
@@ -59,28 +59,28 @@ const nonTechnicalEvents = [
     id: 7,
     title: "Treasure Hunt",
     image:treasure,
-    description: "Music and dance competition",
+    description: "challenge participants in finding the hidden treasure",
     url:"/treasure-hunt"
   },
   {
     id: 8,
     title: "Rewind & Reflect",
     image:reflect,
-    description: "Gaming tournament featuring popular titles",
+    description: "test participants' ability to recall and memorize ",
     url:"/rewind"
   },
   {
     id: 9,
     title: "Exploding Entertainment",
     image:explode,
-    description: "Art and photography exhibition",
+    description: "Trivia Challenge to test participants' knowledge of films ",
     url:"/entertain"
   },
   {
     id: 10,
     title: "Meme Master",
     image:meme,
-    description: "Cultural talent showcase",
+    description: "Challenge to test participants' creativity ",
     url:"/meme"
   },
 ];

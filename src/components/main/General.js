@@ -1,6 +1,6 @@
-import { AlertTriangleIcon, QrCode } from 'lucide-react'
+import { AlertTriangleIcon} from 'lucide-react'
 import React from 'react'
-
+import Scan from '../../assets/generalscan.jpg'
 const General = () => {
   return (
     <>
@@ -50,12 +50,11 @@ const General = () => {
         </div>
         <div className='flex flex-col items-start gap-1 text-white px-2 py-2 font-kittu'>
         <ul className='ml-[20px] text-[16px] sm:text-[17px] list-disc'>
-            <li>UPI ID : 123456789@axl</li>
-            <li className='flex flex-row gap-3'>QR - <QrCode size={150} className='text-white'/></li>
+            <li className='flex flex-row gap-3'>QR - <img src={Scan} alt="scanner" className='w-[170px] h-[170px] rounded-[3px]'/></li>
         </ul>
         </div>
       </div>
-      <a className='text-[17px] sm:text-[19px] w-[200px] text-center py-2 px-2 rounded-[5px] bg-gradient-to-tr from-[#6439ff] to-[#4f75ff] text-white font-kittu' href="#home" rel="noopener noreferrer" target="_blank">Register</a>
+      <a href="https://forms.gle/Wdjj9krvahuBYHnq9" target="_blank" rel="noopener noreferrer" className='text-[17px] sm:text-[19px] w-[200px] text-center py-2 px-2 rounded-[5px] bg-gradient-to-tr from-[#6439ff] to-[#4f75ff] text-white font-kittu'>Register</a>
     </>
   )
 }

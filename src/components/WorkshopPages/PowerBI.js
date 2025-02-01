@@ -1,8 +1,8 @@
 import React from 'react';
 import AI from '../../assets/power.jpg';
-import { ArrowLeft, Calendar, CheckCircle, Clock, IndianRupee, LucideBadgeIndianRupee, NotebookPen, PenLineIcon, QrCode, Timer,AlertTriangleIcon } from 'lucide-react';
+import { ArrowLeft, Calendar, CheckCircle, Clock, IndianRupee, NotebookPen, PenLineIcon, Timer,AlertTriangleIcon } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-
+import Scan from "../../assets/powerbiscan.jpg";
 const PowerBI = () => {
     const navigate=useNavigate();
     const handelNavigate=(path)=>{
@@ -69,8 +69,8 @@ const PowerBI = () => {
         <div className="bg-[#1a1a1a] p-6 rounded-lg shadow-lg">
           <h2 className="text-[20px] sm:text-[24px] font-semibold mb-4 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">Workshop Details</h2>
           <div className="text-sm space-y-2 text-[16px] sm:text-[17px] font-kittu">
-            <p className="flex items-center gap-1"><Calendar size={24} className='text-blue-500'/><strong className='font-kittu'>Date :</strong> Feb 24 and 25</p>
-            <p className="flex items-center gap-1"><Timer size={24} className='text-blue-500'/><strong className='font-kittu'>Duration :</strong> 2 days</p>
+            <p className="flex items-center gap-1"><Calendar size={24} className='text-blue-500'/><strong className='font-kittu'>Date :</strong> Feb 25</p>
+            <p className="flex items-center gap-1"><Timer size={24} className='text-blue-500'/><strong className='font-kittu'>Duration :</strong>1 day</p>
             <p className="flex items-center gap-1"><Clock size={24} className='text-blue-500'/><strong className='font-kittu'>Time :</strong> 10am to 4pm</p>
             <p className="flex items-center gap-1">
               <NotebookPen  size={24} className='text-blue-500'/>
@@ -79,17 +79,17 @@ const PowerBI = () => {
               600
             </p>
             <p className='flex flex-row items-center gap-1 text-[16px] sm:text-[17px] font-kittu'><AlertTriangleIcon size={24} className='text-red-600'/>Before registering this event make sure that your general registration is completed</p>
-            <p className='flex items-center gap-1'><LucideBadgeIndianRupee size={24} className='text-blue-500'/><strong>UPI ID :</strong> 1234567890@sbi</p>
+
           </div>
         </div>
 
         {/* QR Code Section */}
         <div className="bg-[#1a1a1a] p-6 rounded-lg shadow-lg flex flex-col items-center gap-4">
           <p className="text-lg font-medium">Pay Using QR Code</p>
-          <QrCode size={80} />
-          <button className="bg-gradient-to-r from-[#6439ff] to-[#4f75ff] text-white px-6 py-2 rounded-lg transition">
+          <img src={Scan} className='w-[170px] h-[170px] rounded-[3px]' alt="scanner" />
+          <a href=" https://forms.gle/DD1MRpbcuZFFmBuu6" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-[#6439ff] to-[#4f75ff] text-white px-6 py-2 rounded-lg transition">
             Register
-          </button>
+          </a>
         </div>
       </div>
     </div>

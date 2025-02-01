@@ -24,7 +24,6 @@ const Workshops = () => {
           <h1 className='text-[17px] sm:text-[18px] text-transparent bg-gradient-to-tr from-[#ff204e] to-[#a0153e] bg-clip-text font-varun'>Outcomes:</h1>
           <ul className='list-disc px-3 ml-3'>
             <li>Handson Project</li>
-            <li>Deployment</li>
             <li>Certificate</li>
           </ul>
         </div>
@@ -43,7 +42,6 @@ const Workshops = () => {
           <h1 className='text-[17px] sm:text-[18px] text-transparent bg-gradient-to-tr from-[#ff204e] to-[#a0153e] bg-clip-text font-varun'>Outcomes:</h1>
           <ul className='list-disc px-3 ml-3'>
             <li>Handson Project</li>
-            <li>Deployment</li>
             <li>Certificate</li>
           </ul>
         </div>
@@ -62,7 +60,6 @@ const Workshops = () => {
           <h1 className='text-[17px] sm:text-[18px] text-transparent bg-gradient-to-tr from-[#ff204e] to-[#a0153e] bg-clip-text font-varun'>Outcomes:</h1>
           <ul className='list-disc px-3 ml-3'>
             <li>Handson Project</li>
-            <li>Deployment</li>
             <li>Certificate</li>
           </ul>
         </div>

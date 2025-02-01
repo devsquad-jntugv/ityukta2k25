@@ -53,7 +53,7 @@ const Navbar = () => {
           </div>*/}
           <div className='flex flex-row gap-1 items-center'>
           <div className="mt-3 bg-transparent mr-3 hidden sm:block">
-            <a href="#home" ><img src={acm} alt="acm" loading='lazy' className="h-[75px] w-[75px] rounded-full bg-cover"/></a>
+            <a href="https://jntukucev.hosting2.acm.org/" target='_blank' rel="noopener noreferrer"><img src={acm} alt="acm" loading='lazy' className="h-[75px] w-[75px] rounded-full bg-cover"/></a>
           </div>
           </div>
           {/* Mobile menu button */}

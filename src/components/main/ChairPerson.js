@@ -2,7 +2,7 @@ import React from 'react'
 import {motion} from 'framer-motion'
 import { fadeIn } from '../../variants'
 import { Github,Linkedin,Twitter } from 'lucide-react'
-import image from '../../assets/person.png'
+import image from '../../assets/BinduMam.jpg'
 const ChairPerson = () => {
   return (
     <>
@@ -18,9 +18,9 @@ const ChairPerson = () => {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{once:false,amount:0.7}} className="flex flex-col sm:flex-row items-center rounded-sm shadow-sm shadow-white mt-3 w-full max-w-4xl mx-auto">
-  <div className="w-full sm:w-[250px] h-[220px] flex-shrink-0">
+  <div className="w-full sm:w-[250px] h-[240px] flex-shrink-0">
     <img
-      className="w-full h-full object-cover rounded-sm"
+      className="w-full h-full rounded-sm"
       src={image}
       alt="HOD"
     />

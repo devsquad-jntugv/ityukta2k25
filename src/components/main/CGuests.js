@@ -2,14 +2,15 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../../variants.js'
 import Chief from '../Chief.js'
-import person from '../../assets/person.png'
+import person1 from '../../assets/vc.png'
+import person2 from '../../assets/registrer.jpeg'
 const CGuests = () => {
   const chiefGuests = [
                 {
                   name: "Dr.D.Rajya Lakshmi",
                   role: "Hon'ble Vice Chancellor",
                   company: "JNTUGV",
-                  image:person,
+                  image:person1,
                   bio: "Leading researcher in artificial intelligence and machine learning, with groundbreaking work in neural networks.",
                   session: "Future of AI in Technology",
                   venue: "Main Auditorium",
@@ -24,7 +25,7 @@ const CGuests = () => {
                   name: "Prof. Dr.G.Jayasuma",
                   role: "Registrar",
                   company: "JNTUGV",
-                  image: person,
+                  image: person2,
                   bio: "Pioneering engineer with extensive experience in spacecraft systems and sustainable energy solutions.",
                   session: "Space Technology and Innovation",
                   venue: "Innovation Hub",

@@ -84,7 +84,7 @@ const Home = () => {
     <h1 className="font-bold text-[25px] font-varun sm:text-[30px] md:text-[35px] bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent tracking-wider text-center border-b-4 border-b-[#6439ff]">COMBO GRAB</h1>
   </div>
   <Combo/>
-  <a href className='text-white bg-gradient-to-tr from-[#6439ff] to-[#4f75ff] font-kittu py-2 px-3 text-[18px] sm:text-[20px] rounded-[5px] mt-3 hover:cursor-pointer'>Register for Combo's</a>
+  
 </section>
 <section id="culturals" className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-6 overflow-hidden sm:py-24 py-8 px-4'>
   <div className="flex justify-center items-center gap-2 w-full">

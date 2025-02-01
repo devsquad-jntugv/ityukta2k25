@@ -2,7 +2,8 @@ import React from 'react'
 import {motion} from 'framer-motion'
 import { fadeIn } from '../../variants'
 import { Twitter,Linkedin,Github } from 'lucide-react'
-import image from '../../assets/person.png'
+import image1 from '../../assets/Rozi Mam.jpg'
+import image2 from '../../assets/Manasa Mam.jpg'
 const Fcord = () => {
   return (
     <>
@@ -21,8 +22,8 @@ const Fcord = () => {
   <div className="flex flex-col sm:flex-row items-center rounded-sm shadow-sm shadow-white mt-3 w-full max-w-lg">
   <div className="w-full sm:w-[220px] h-[220px] flex-shrink-0">
     <img
-      className="w-full h-full object-cover rounded-sm"
-      src={image}
+      className="w-full h-full rounded-sm"
+      src={image1}
       alt="HOD"
     />
   </div>
@@ -63,8 +64,8 @@ const Fcord = () => {
 <div className="flex flex-col sm:flex-row items-center rounded-sm shadow-sm shadow-white mt-3 w-full max-w-lg">
   <div className="w-full sm:w-[220px] h-[220px] flex-shrink-0">
     <img
-      className="w-full h-full object-cover rounded-sm"
-      src={image}
+      className="w-full h-full rounded-sm"
+      src={image2}
       alt="HOD"
     />
   </div>
