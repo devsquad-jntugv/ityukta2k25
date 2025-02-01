@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
-import De from '../../assets/bounty.jpg'
+import De from '../../assets/bounty1.jpg'
 import {Calendar,Timer,Clock,NotebookPen,IndianRupee,ArrowLeft, AlertTriangleIcon } from 'lucide-react';
 import Scan from "../../assets/techscan.jpg"
 const BugHunt=()=> {
