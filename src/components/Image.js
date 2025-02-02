@@ -1,22 +1,23 @@
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import treasurer from '../assets/treasurer.jpg'
+import cotreasurer from '../assets/cotreasurer.jpg'
 import overalltech from '../assets/boytech.jpg'
 import cooveralltech from '../assets/girltech.jpg'
 import overallnontech from '../assets/boynontech.jpg'
 import cooverallnontech from '../assets/girlnontech.jpg'
 import promotion from '../assets/promotionhead.jpg'
 import profile from '../assets/person.png'
+import treasurer from '../assets/treasurer.jpg'
 const profiles = [
   {
     name: "Kadali Sai Kishore",
     role: "Treasurer",
-    image: profile,
+    image: treasurer,
   },
   {
     name: "Masood",
     role: "Co-treasurer",
-    image: treasurer,
+    image: cotreasurer,
   },
   {
     name: "P.Venkatesh",
@@ -107,7 +108,7 @@ const TeamCard = () => {
             key={index}
             className="w-full sm:w-[calc(100%/2-1rem)] md:w-[calc(100%/3-1rem)] lg:w-[calc(100%/4-1rem)] flex-shrink-0 flex flex-col items-center bg-[#000000] rounded-[12px]"
           >
-            <div className="w-[250px] h-[196px] mb-6 relative">
+            <div className="w-[250px] h-[196px] mb-2 relative">
               <img
                 src={profile.image}
                 alt={profile.name}
@@ -115,7 +116,7 @@ const TeamCard = () => {
               />
             </div>
             <div className='flex flex-col justify-center items-center gap-[1px] px-[2px] py-1'>
-            <h2 className="text-[18px] sm:text-[20px] font-bold mb-1 text-center">{profile.name}</h2>
+            <h2 className="text-[18px] sm:text-[20px] font-bold text-center">{profile.name}</h2>
             <p className="text-purple-600 text-[15px] sm:text-[17px] font-medium text-center">{profile.role}</p>
             </div>
           </div>

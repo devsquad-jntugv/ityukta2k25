@@ -57,9 +57,12 @@ const Navbar = () => {
           </div>
           </div>
           {/* Mobile menu button */}
-          <div className="md:hidden">
+          <div className="md:hidden flex gap-1">
+          <div className="mt-3 bg-transparent">
+            <a href="https://jntukucev.hosting2.acm.org/" target='_blank' rel="noopener noreferrer"><img src={acm} alt="acm" loading='lazy' className="h-[60px] w-[60px] rounded-full"/></a>
+          </div>
             <button onClick={() => setIsOpen(!isOpen)}
-                    className="inline-flex items-center justify-center p-2 rounded-md hover:bg-gray-700 focus:outline-none">
+                    className="inline-flex items-center justify-center rounded-md focus:outline-none">
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-8 w-8" />}
             </button>
           </div>
