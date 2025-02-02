@@ -1,6 +1,11 @@
 import React from 'react'
 import {Youtube,Instagram,Linkedin} from 'lucide-react'
+import { useNavigate } from 'react-router-dom';
 const Footer = () => {
+    const navigate=useNavigate();
+    const handelNavigate=(path)=>{
+      navigate(path);
+    }
     const scrollToSection = (sectionId) => {
         const element = document.getElementById(sectionId);
         if (element) {
@@ -29,7 +34,7 @@ const Footer = () => {
            <p onClick={() => scrollToSection('events')} className='text-[16px] font-varun hover:cursor-pointer hover:text-purple-400'>Events</p>
          </div>
          <div className='flex flex-col py-2 px-2 items-start gap-2 text-white'>
-           <p onClick={() => scrollToSection('')} className='text-[16px] font-varun hover:cursor-pointer hover:text-purple-400'>Contact</p>
+           <p onClick={()=>handelNavigate('/contact')} className='text-[16px] font-varun hover:cursor-pointer hover:text-purple-400'>Contact</p>
            <p onClick={() => scrollToSection('sponsors')} className='text-[16px] font-varun hover:cursor-pointer hover:text-purple-400'>Sponsors</p>
            <p onClick={() => scrollToSection('guests')} className='text-[16px] font-varun hover:cursor-pointer hover:text-purple-400'>Guests</p>
            <p onClick={() => scrollToSection('culturals')} className='text-[16px] font-varun hover:cursor-pointer hover:text-purple-400'>Culturals & Flashmob</p>

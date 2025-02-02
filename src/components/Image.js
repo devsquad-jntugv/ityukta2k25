@@ -1,5 +1,11 @@
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import treasurer from '../assets/treasurer.jpg'
+import overalltech from '../assets/boytech.jpg'
+import cooveralltech from '../assets/girltech.jpg'
+import overallnontech from '../assets/boynontech.jpg'
+import cooverallnontech from '../assets/girlnontech.jpg'
+import promotion from '../assets/promotionhead.jpg'
 import profile from '../assets/person.png'
 const profiles = [
   {
@@ -10,32 +16,32 @@ const profiles = [
   {
     name: "Masood",
     role: "Co-treasurer",
-    image: profile,
+    image: treasurer,
   },
   {
     name: "P.Venkatesh",
     role: "Overall Tech Coordinator",
-    image: profile,
+    image: overalltech,
   },
   {
     name: "R.Geethika",
     role: "Co-overall tech coordinator",
-    image: profile,
+    image: cooveralltech,
   },
   {
     name: "G.Chandra Mouli",
     role: "Overall Non-tech Coordinator",
-    image: profile,
+    image: overallnontech,
   },
   {
     name: "Ch.Jahnavi",
     role: "Co-overall non-tech coordinator",
-    image: profile,
+    image: cooverallnontech,
   },
   {
     name: "Ch.Saradhi",
     role: "Promotion head",
-    image: profile,
+    image: promotion,
   },
   {
     name: "P.Snehadeep",
@@ -101,15 +107,17 @@ const TeamCard = () => {
             key={index}
             className="w-full sm:w-[calc(100%/2-1rem)] md:w-[calc(100%/3-1rem)] lg:w-[calc(100%/4-1rem)] flex-shrink-0 flex flex-col items-center bg-[#000000] rounded-[12px]"
           >
-            <div className="w-full h-[196px] mb-6 relative">
+            <div className="sm:w-[250px] w-full h-[196px] mb-6 relative">
               <img
                 src={profile.image}
                 alt={profile.name}
                 className="w-full h-full object-cover rounded-[10px_10px_55px_0px] border border-[15px]-white"
               />
             </div>
-            <h2 className="text-2xl font-bold mb-1">{profile.name}</h2>
-            <p className="text-purple-600 font-medium mb-4">{profile.role}</p>
+            <div className='flex flex-col justify-center items-center gap-[1px] px-[2px] py-1'>
+            <h2 className="text-[18px] sm:text-[20px] font-bold mb-1 text-center">{profile.name}</h2>
+            <p className="text-purple-600 text-[15px] sm:text-[17px] font-medium text-center">{profile.role}</p>
+            </div>
           </div>
         ))}
       </div>
