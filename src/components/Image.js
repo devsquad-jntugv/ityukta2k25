@@ -107,7 +107,7 @@ const TeamCard = () => {
             key={index}
             className="w-full sm:w-[calc(100%/2-1rem)] md:w-[calc(100%/3-1rem)] lg:w-[calc(100%/4-1rem)] flex-shrink-0 flex flex-col items-center bg-[#000000] rounded-[12px]"
           >
-            <div className="sm:w-[250px] w-full h-[196px] mb-6 relative">
+            <div className="sm:w-[250px] w-[220px] h-[196px] mb-6 relative">
               <img
                 src={profile.image}
                 alt={profile.name}
