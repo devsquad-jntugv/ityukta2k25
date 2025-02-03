@@ -17,12 +17,12 @@ const Footer = () => {
      <footer className='bg-[#000000] w-full overflow-hidden flex flex-col items-start gap-3 sm:justify-around sm:flex-row sm:items-center py-4 px-4'>
          <div className='flex flex-col py-2 px-2 items-start gap-2 text-white'>
            <h1 className='text-[18px] font-kittu bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent'>ITYUKTA 2k25</h1>
-           <p className='text-[16px] font-varun'>a national level tech-fest | Powered by JNTU-GV IT</p>
+           <p className='text-[16px] font-varun'>A National Level Tech-fest | JNTU-GV IT</p>
            <p className='text-[16px] font-varun'>Follow us for updates on :</p>
            <div className='flex gap-2 items-center justify-start transition-all'>
              
              <a href="https://www.instagram.com/ityukta_2k25?igsh=ZjZ3NDJ2NTB5MDl2" target='_blank' rel="noopener noreferrer"><Instagram size={22} className='hover:bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 px-[1px] py-[1px] rounded-[2px] hover:cursor-pointer'/></a>
-             <a href=" https://www.linkedin.com/company/ityukta-2k25" target="_blank" rel='noopener noreferrer'><Linkedin size={22} className='hover:bg-blue-500 px-[1px] py-[1px] rounded-[2px] hover:cursor-pointer'/></a>
+             <a href=" https://www.linkedin.com/company/ityukta2k25/" target="_blank" rel='noopener noreferrer'><Linkedin size={22} className='hover:bg-blue-500 px-[1px] py-[1px] rounded-[2px] hover:cursor-pointer'/></a>
              <a href="https://www.youtube.com/watch?v=QI9pxSfj4a4" target="_blank" rel="noopener noreferrer"><Youtube size={22} className='hover:bg-red-600 px-[1px] py-[1px] rounded-[2px] hover:cursor-pointer'/></a>
            </div>
            <p className='text-[16px] font-varun'>Email: ityukta2k25@gmail.com</p>

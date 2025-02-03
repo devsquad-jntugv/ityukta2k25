@@ -39,14 +39,14 @@ const Navbar = () => {
           </div>
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8 text-[16px] sm:text-[18px] font-kittu">
-            <button onClick={() => scrollToSection('home')} className="hover:text-purple-500 transition-colors">Home</button>
-            <button onClick={() => scrollToSection('about')} className="hover:text-purple-500 transition-colors">About</button>
-            <button onClick={() => scrollToSection('guests')} className="hover:text-purple-500 transition-colors">Guests</button>
-            <button onClick={() => scrollToSection('workshops')} className="hover:text-purple-500 transition-colors">WorkShops</button>
-            <button onClick={() => scrollToSection('events')} className="hover:text-purple-500 transition-colors">Events</button>
-            <button onClick={() => scrollToSection('culturals')} className="hover:text-purple-500 transition-colors">Culturals & Flashmob</button>
-            <button onClick={() => scrollToSection('sponsors')} className="hover:text-purple-500 transition-colors">Sponsors</button>
-            <button onClick={()=>handelNavigate('/contact')} className="hover:text-purple-500 transition-colors">Contact</button>
+            <button onClick={() => scrollToSection('home')} className="hover:text-purple-500 transition-colors bg-transparent">Home</button>
+            <button onClick={() => scrollToSection('about')} className="hover:text-purple-500 transition-colors bg-transparent ">About</button>
+            <button onClick={() => scrollToSection('guests')} className="hover:text-purple-500 transition-colors bg-transparent">Guests</button>
+            <button onClick={() => scrollToSection('workshops')} className="hover:text-purple-500 transition-colors bg-transparent">WorkShops</button>
+            <button onClick={() => scrollToSection('events')} className="hover:text-purple-500 transition-colors bg-transparent">Events</button>
+            <button onClick={() => scrollToSection('culturals')} className="hover:text-purple-500 transition-colors bg-transparent">Culturals & Flashmob</button>
+            <button onClick={() => scrollToSection('sponsors')} className="hover:text-purple-500 transition-colors bg-transparent">Sponsors</button>
+            <button onClick={()=>handelNavigate('/contact')} className="hover:text-purple-500 transition-colors bg-transparent">Contact</button>
           </div>
           {/*<div className='hidden md:block'>
             <button  onClick={() => scrollToSection('workshops')} className='px-4 py-2 text-[17px] sm:text-[19px] font-kittu rounded-[5px] border border-4-white bg-transparent text-white hover:bg-gradient-to-r from-[#6439ff] to-[#4f75ff] transition-colors duration-150'>Participate</button>
@@ -74,21 +74,21 @@ const Navbar = () => {
         <div className="md:hidden font-kittu bg-[#0e0d0d]">
           <div className="px-2 pt-2 pb-3 space-y-1">
             <button onClick={() => { scrollToSection('home'); setIsOpen(false); }} 
-                    className="block w-full text-left px-3 py-2 rounded-md hover:bg-gray-700">Home</button>
+                    className="block w-full text-left px-3 py-2 rounded-md hover:bg-gray-700 bg-transparent">Home</button>
             <button onClick={() => { scrollToSection('about'); setIsOpen(false); }}
-                    className="block w-full text-left px-3 py-2 rounded-md hover:bg-gray-700">About</button>
+                    className="block w-full text-left px-3 py-2 rounded-md hover:bg-gray-700  bg-transparent">About</button>
             <button onClick={() => { scrollToSection('guests'); setIsOpen(false); }}
-                    className="block w-full text-left px-3 py-2 rounded-md hover:bg-gray-700">Guests</button>
+                    className="block w-full text-left px-3 py-2 rounded-md hover:bg-gray-700 bg-transparent">Guests</button>
             <button onClick={() => { scrollToSection('workshops'); setIsOpen(false); }}
-                    className="block w-full text-left px-3 py-2 rounded-md hover:bg-gray-700">WorkShops</button>
+                    className="block w-full text-left px-3 py-2 rounded-md hover:bg-gray-700 bg-transparent">WorkShops</button>
             <button onClick={() => { scrollToSection('events'); setIsOpen(false); }}
-                    className="block w-full text-left px-3 py-2 rounded-md hover:bg-gray-700">Events</button>
+                    className="block w-full text-left px-3 py-2 rounded-md hover:bg-gray-700 bg-transparent">Events</button>
             <button onClick={() => { scrollToSection('culturals'); setIsOpen(false); }}
-                    className="block w-full text-left px-3 py-2 rounded-md hover:bg-gray-700">Culturals</button>
+                    className="block w-full text-left px-3 py-2 rounded-md hover:bg-gray-700 bg-transparent">Culturals</button>
             <button onClick={() => { scrollToSection('sponsors'); setIsOpen(false); }}
-                    className="block w-full text-left px-3 py-2 rounded-md hover:bg-gray-700">Sponsors</button>
+                    className="block w-full text-left px-3 py-2 rounded-md hover:bg-gray-700 bg-transparent">Sponsors</button>
             <button onClick={() => { handelNavigate('/contact'); setIsOpen(false); }}
-                    className="block w-full text-left px-3 py-2 rounded-md hover:bg-gray-700">Contact</button>
+                    className="block w-full text-left px-3 py-2 rounded-md hover:bg-gray-700 bg-transparent">Contact</button>
           </div>
         </div>
       )}

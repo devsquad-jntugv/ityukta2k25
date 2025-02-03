@@ -1,5 +1,5 @@
 import React from 'react'
-import {InstagramIcon,LinkedinIcon,GithubIcon,TwitterIcon} from 'lucide-react'
+import {InstagramIcon,LinkedinIcon} from 'lucide-react'
 import M1 from '../../assets/boyco1.jpg'
 import M2 from "../../assets/boyco2.jpg"
 import G1 from "../../assets/girlco1.jpg"
@@ -23,8 +23,6 @@ const SCord = () => {
               <div className='flex items-center gap-3'>
                 <InstagramIcon size={19} className='text-white hover:cursor-pointer hover:bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 px-[1px] py-[1px] rounded-[2px]'/>
                 <LinkedinIcon size={19} className='text-white hover:cursor-pointer hover:bg-blue-600 px-[1px] py-[1px] rounded-[2px]'/>
-                <GithubIcon size={19} className='text-white hover:cursor-pointer hover:bg-blue-500 px-[1px] py-[1px] rounded-[2px]'/>
-                <TwitterIcon size={19} className='text-white hover:cursor-pointer hover:bg-blue-400 px-[1px] py-[1px] rounded-[2px]'/>
               </div>
             </div>
           </div>
@@ -36,10 +34,8 @@ const SCord = () => {
               <h1 className='text-[18px] sm:text-[20px] font-kittu font-semibold text-white'>G.S.S. Pradeep</h1>
               <p className='text-[15px] sm:text-[17px] font-kittu font-semibold text-[#4135eb]'>Fest Coordinator</p>
               <div className='flex items-center gap-3'>
-                <InstagramIcon size={19} className='text-white hover:cursor-pointer hover:bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 px-[1px] py-[1px] rounded-[2px]'/>
-                <LinkedinIcon size={19} className='text-white hover:cursor-pointer hover:bg-blue-600 px-[1px] py-[1px] rounded-[2px]'/>
-                <GithubIcon size={19} className='text-white hover:cursor-pointer hover:bg-blue-500 px-[1px] py-[1px] rounded-[2px]'/>
-                <TwitterIcon size={19} className='text-white hover:cursor-pointer hover:bg-blue-400 px-[1px] py-[1px] rounded-[2px]'/>
+              <a href="I'm on Instagram as @pradeep..005. Install the app to follow my photos and videos. https://www.instagram.com/pradeep..005?igsh=MWk2dTV4Z204d2IxaA==&utm_source=ig_contact_invite" target="_blank" rel="noopener noreferrer"><InstagramIcon size={19} className='text-white hover:cursor-pointer hover:bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 px-[1px] py-[1px] rounded-[2px]'/></a>
+              <a href="https://www.linkedin.com/in/pradeep-gedela-26838728b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer"><LinkedinIcon size={19} className='text-white hover:cursor-pointer hover:bg-blue-600 px-[1px] py-[1px] rounded-[2px]'/></a>
               </div>
             </div>
           </div>
@@ -51,10 +47,8 @@ const SCord = () => {
               <h1 className='text-[18px] sm:text-[20px] font-kittu font-semibold text-white'>G.Pravalika</h1>
               <p className='text-[15px] sm:text-[17px] font-kittu font-semibold text-[#4135eb]'>Fest Coordinator</p>
               <div className='flex items-center gap-3'>
-                <InstagramIcon size={19} className='text-white hover:cursor-pointer hover:bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 px-[1px] py-[1px] rounded-[2px]'/>
-                <LinkedinIcon size={19} className='text-white hover:cursor-pointer hover:bg-blue-600 px-[1px] py-[1px] rounded-[2px]'/>
-                <GithubIcon size={19} className='text-white hover:cursor-pointer hover:bg-blue-500 px-[1px] py-[1px] rounded-[2px]'/>
-                <TwitterIcon size={19} className='text-white hover:cursor-pointer hover:bg-blue-400 px-[1px] py-[1px] rounded-[2px]'/>
+                <a href="https://www.instagram.com/pravalli.21?igsh=MXkweWNyczU3dXVoNA==" target="_blank" rel="noopener noreferrer"><InstagramIcon size={19} className='text-white hover:cursor-pointer hover:bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 px-[1px] py-[1px] rounded-[2px]'/></a>
+                <a href="https://www.linkedin.com/in/pravallika-ganta-7662932b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer"><LinkedinIcon size={19} className='text-white hover:cursor-pointer hover:bg-blue-600 px-[1px] py-[1px] rounded-[2px]'/></a>
               </div>
             </div>
           </div><div className='flex flex-row justify-center items-center px-3 py-3 gap-1 rounded-[10px] w-[320px] sm:w-[480px] h-[150px] sm:h-[180px] bg-[#0e0d0d] shadow-sm shadow-white transform hover:scale-105 transition-transform duration-300'>
@@ -67,8 +61,6 @@ const SCord = () => {
               <div className='flex items-center gap-3'>
                 <InstagramIcon size={19} className='text-white hover:cursor-pointer hover:bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 px-[1px] py-[1px] rounded-[2px]'/>
                 <LinkedinIcon size={19} className='text-white hover:cursor-pointer hover:bg-blue-600 px-[1px] py-[1px] rounded-[2px]'/>
-                <GithubIcon size={19} className='text-white hover:cursor-pointer hover:bg-blue-500 px-[1px] py-[1px] rounded-[2px]'/>
-                <TwitterIcon size={19} className='text-white hover:cursor-pointer hover:bg-blue-400 px-[1px] py-[1px] rounded-[2px]'/>
               </div>
             </div>
           </div>
