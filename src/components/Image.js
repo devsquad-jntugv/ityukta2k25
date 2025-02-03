@@ -6,8 +6,9 @@ import cooveralltech from '../assets/girltech.jpg'
 import overallnontech from '../assets/boynontech.jpg'
 import cooverallnontech from '../assets/girlnontech.jpg'
 import promotion from '../assets/promotionhead.jpg'
-import profile from '../assets/person.png'
 import treasurer from '../assets/treasurer.jpg'
+import sponsor from '../assets/sponsorshiphead.jpg'
+import accomodation from '../assets/accomodation.png'
 const profiles = [
   {
     name: "Kadali Sai Kishore",
@@ -18,6 +19,16 @@ const profiles = [
     name: "Masood",
     role: "Co-treasurer",
     image: cotreasurer,
+  },
+  {
+    name: "P.Snehadeep",
+    role: "Sponsorships head",
+    image: sponsor,
+  },
+  {
+    name: "Ch.Saradhi",
+    role: "Promotion head",
+    image: promotion,
   },
   {
     name: "P.Venkatesh",
@@ -40,15 +51,10 @@ const profiles = [
     image: cooverallnontech,
   },
   {
-    name: "Ch.Saradhi",
-    role: "Promotion head",
-    image: promotion,
-  },
-  {
-    name: "P.Snehadeep",
-    role: "Sponsorships head",
-    image: profile,
-  },
+    name: "K.V.Krishna",
+    role: "Accomodation head",
+    image:accomodation,
+  }
 ];
 
 const TeamCard = () => {

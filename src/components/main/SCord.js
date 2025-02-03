@@ -21,8 +21,8 @@ const SCord = () => {
               <h1 className='text-[18px] sm:text-[20px] font-kittu font-semibold text-white'>B.S.S. Sravan</h1>
               <p className='text-[15px] sm:text-[17px] font-kittu font-semibold text-[#4135eb]'>Fest Coordinator</p>
               <div className='flex items-center gap-3'>
-                <InstagramIcon size={19} className='text-white hover:cursor-pointer hover:bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 px-[1px] py-[1px] rounded-[2px]'/>
-                <LinkedinIcon size={19} className='text-white hover:cursor-pointer hover:bg-blue-600 px-[1px] py-[1px] rounded-[2px]'/>
+              <a href="https://www.instagram.com/shanmukh_bajjangi_?utm_source=qr&igsh=MTJkNjJvdDA5em1pZQ==" target="_blank" rel="noopener noreferrer"><InstagramIcon size={19} className='text-white hover:cursor-pointer hover:bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 px-[1px] py-[1px] rounded-[2px]'/></a>
+              <a href="https://www.linkedin.com/in/shanmukh-sravan-bajjangi-057374271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer"><LinkedinIcon size={19} className='text-white hover:cursor-pointer hover:bg-blue-600 px-[1px] py-[1px] rounded-[2px]'/></a>
               </div>
             </div>
           </div>
@@ -34,7 +34,7 @@ const SCord = () => {
               <h1 className='text-[18px] sm:text-[20px] font-kittu font-semibold text-white'>G.S.S. Pradeep</h1>
               <p className='text-[15px] sm:text-[17px] font-kittu font-semibold text-[#4135eb]'>Fest Coordinator</p>
               <div className='flex items-center gap-3'>
-              <a href="I'm on Instagram as @pradeep..005. Install the app to follow my photos and videos. https://www.instagram.com/pradeep..005?igsh=MWk2dTV4Z204d2IxaA==&utm_source=ig_contact_invite" target="_blank" rel="noopener noreferrer"><InstagramIcon size={19} className='text-white hover:cursor-pointer hover:bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 px-[1px] py-[1px] rounded-[2px]'/></a>
+              <a href="https://www.instagram.com/pradeep..005?igsh=MWk2dTV4Z204d2IxaA==&utm_source=ig_contact_invite" target="_blank" rel="noopener noreferrer"><InstagramIcon size={19} className='text-white hover:cursor-pointer hover:bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 px-[1px] py-[1px] rounded-[2px]'/></a>
               <a href="https://www.linkedin.com/in/pradeep-gedela-26838728b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer"><LinkedinIcon size={19} className='text-white hover:cursor-pointer hover:bg-blue-600 px-[1px] py-[1px] rounded-[2px]'/></a>
               </div>
             </div>
@@ -59,8 +59,8 @@ const SCord = () => {
               <h1 className='text-[18px] sm:text-[20px] font-kittu font-semibold text-white'>T.Ganga Bhavani</h1>
               <p className='text-[15px] sm:text-[17px] font-kittu font-semibold text-[#4135eb]'>Fest Coordinator</p>
               <div className='flex items-center gap-3'>
-                <InstagramIcon size={19} className='text-white hover:cursor-pointer hover:bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 px-[1px] py-[1px] rounded-[2px]'/>
-                <LinkedinIcon size={19} className='text-white hover:cursor-pointer hover:bg-blue-600 px-[1px] py-[1px] rounded-[2px]'/>
+              <a href="https://www.instagram.com/ganga_tutta/?hl=en" target="_blank" rel="noopener noreferrer"><InstagramIcon size={19} className='text-white hover:cursor-pointer hover:bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 px-[1px] py-[1px] rounded-[2px]'/></a>
+              <a href="https://www.linkedin.com/in/ganga-tutta-ba425b28b/" target="_blank" rel="noopener noreferrer"><LinkedinIcon size={19} className='text-white hover:cursor-pointer hover:bg-blue-600 px-[1px] py-[1px] rounded-[2px]'/></a>
               </div>
             </div>
           </div>
