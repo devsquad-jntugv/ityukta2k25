@@ -26,8 +26,8 @@ const General = () => {
         <div className='flex flex-col items-start gap-1 px-2 py-2 rounded-[10px] shadow-sm shadow-white'>
            <p className='text-[17px] sm:text-[18px] text-white font-bold font-kittu py-[2px] border-b-2 border-purple-500'>General Registration(<span className='text-[16px] sm:text-[17px] text-red-600 font-kittu'>With Accomodation</span>)</p>
            <div className='flex flex-col items-start gap-[3px] px-2 text-white'>
-            <p className=' text-[16px] sm:text-[17px] font-kittu'>One day : 100 + 300/person</p>
-            <p className=' text-[16px] sm:text-[17px] font-kittu'>Two days: 200 + 500/person</p>
+            <p className=' text-[16px] sm:text-[17px] font-kittu'>One day : 100 + 200/person</p>
+            <p className=' text-[16px] sm:text-[17px] font-kittu'>Two days: 200 + 300/person</p>
            </div>
            <div className='flex-flex-col items-start px-2 gap-[3px] text-white'>
             <p className='text-[16px] sm:text-[17px] font-semibold font-kittu '>Facilities:</p>
