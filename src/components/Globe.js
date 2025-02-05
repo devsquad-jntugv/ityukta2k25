@@ -36,7 +36,7 @@ const Globe = () => {
     ];
 
     const options = {
-      radius: 240,
+      radius: 200,
       maxSpeed: "normal",
       initSpeed: "normal",
       keep: true,
