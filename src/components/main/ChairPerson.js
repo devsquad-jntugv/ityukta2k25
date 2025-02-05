@@ -1,7 +1,7 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 import { fadeIn } from '../../variants'
-import { Github,Linkedin,Twitter } from 'lucide-react'
+import { Linkedin,Twitter } from 'lucide-react'
 import image from '../../assets/BinduMam.jpg'
 const ChairPerson = () => {
   return (
@@ -18,7 +18,7 @@ const ChairPerson = () => {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{once:false,amount:0.7}} className="flex flex-col sm:flex-row items-center rounded-sm shadow-sm shadow-white mt-3 w-full max-w-4xl mx-auto">
-  <div className="w-full sm:w-[250px] h-[240px] flex-shrink-0">
+  <div className="w-full sm:w-[250px] h-[240px]">
     <img
       className="w-full h-full rounded-sm"
       src={image}
@@ -51,10 +51,6 @@ const ChairPerson = () => {
         aria-label="LinkedIn"
       >
         <Linkedin className="w-6 h-6" />
-      </a>
-      <a
-        href className="text-white hover:text-blue-700 transition-colors duration-200 hover:cursor-pointer" aria-label="GitHub">
-        <Github className="w-6 h-6" />
       </a>
     </div>
   </div>

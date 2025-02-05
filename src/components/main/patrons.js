@@ -18,7 +18,6 @@ const Patrons = () => {
               social: {
                 twitter: "#",
                 linkedin: "#",
-                github: "#"
               }
             },
             {
@@ -33,7 +32,6 @@ const Patrons = () => {
               social: {
                 twitter: "#",
                 linkedin: "#",
-                github: "#"
               }
             },
           ];

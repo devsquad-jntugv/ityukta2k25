@@ -1,7 +1,7 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 import { fadeIn } from '../../variants'
-import { Twitter,Linkedin,Github } from 'lucide-react'
+import { Twitter,Linkedin } from 'lucide-react'
 import image1 from '../../assets/Rozi Mam.jpg'
 import image2 from '../../assets/Manasa Mam.jpg'
 const Fcord = () => {
@@ -54,10 +54,6 @@ const Fcord = () => {
       >
         <Linkedin className="w-6 h-6" />
       </a>
-      <a
-        href className="text-white hover:text-blue-700 transition-colors duration-200 hover:cursor-pointer" aria-label="GitHub">
-        <Github className="w-6 h-6" />
-      </a>
     </div>
   </div>
 </div>
@@ -95,10 +91,6 @@ const Fcord = () => {
         aria-label="LinkedIn"
       >
         <Linkedin className="w-6 h-6" />
-      </a>
-      <a
-        href className="text-white hover:text-blue-700 transition-colors duration-200 hover:cursor-pointer" aria-label="GitHub">
-        <Github className="w-6 h-6" />
       </a>
     </div>
   </div>

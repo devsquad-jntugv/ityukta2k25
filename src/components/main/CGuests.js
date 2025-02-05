@@ -18,7 +18,7 @@ const CGuests = () => {
                   social: {
                     twitter: "#",
                     linkedin: "#",
-                    github: "#"
+                    
                   }
                 },
                 {
@@ -33,7 +33,7 @@ const CGuests = () => {
                   social: {
                     twitter: "#",
                     linkedin: "#",
-                    github: "#"
+                    
                   }
                 },
               ];
