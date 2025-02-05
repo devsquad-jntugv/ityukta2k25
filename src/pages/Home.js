@@ -42,7 +42,7 @@ const Home = () => {
     <section id="home" className=' h-screen w-[100%] px-4 py-3 flex justify-center items-center'>
         <Header/>
     </section>
-    <section id="about" className="bg-[#0e0d0d] w-full flex flex-col md:flex-row justify-center items-center md:gap-3 gap-1 px-6 sm:px-10 overflow-hidden mt-[-50px] sm:mt-0">
+    <section id="about" className="bg-[#0e0d0d] w-full flex flex-col md:flex-row justify-center items-center md:gap-3 gap-1 px-6 sm:px-10 overflow-hidden mt-[-40px] sm:mt-0">
        <About/>
     </section>
 <section id="guests" className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-2 overflow-hidden sm:py-20 py-4 px-4'>

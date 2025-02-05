@@ -11,7 +11,7 @@ const About =() => {
     whileInView={"show"}
     viewport={{once:false,amount:0.7}}
 
-    className="flex flex-col justify-center items-center gap-4 py-2">
+    className="flex flex-col justify-center items-center gap-4 py-16">
     <h1 className="font-bold text-[25px] font-varun sm:text-[30px] md:text-[35px] bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent tracking-wider text-center border-b-4 border-b-[#6439ff]">
       ABOUT ITYUKTA
     </h1>
@@ -20,7 +20,7 @@ const About =() => {
     </p>
   </motion.div>
   <motion.div
-  variants={fadeIn('left',0.3)} initial="hidden" whileInView={"show"} viewport={{once:false,amount:0.7}} className="w-full max-w-full mt-[-50px] sm:mt-0">
+  variants={fadeIn('left',0.3)} initial="hidden" whileInView={"show"} viewport={{once:false,amount:0.7}} className="w-full sm:mt-0">
     <Globe />
   </motion.div>
     </>
