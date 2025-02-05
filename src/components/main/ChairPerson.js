@@ -18,7 +18,7 @@ const ChairPerson = () => {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{once:false,amount:0.7}} className="flex flex-col sm:flex-row items-center rounded-sm shadow-sm shadow-white mt-3 w-full max-w-4xl mx-auto">
-  <div className="w-full sm:w-[250px] h-[240px]">
+  <div className="w-full sm:w-[300px] h-[240px]">
     <img
       className="w-full h-full rounded-sm"
       src={image}
