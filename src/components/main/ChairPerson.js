@@ -17,7 +17,7 @@ const ChairPerson = () => {
   <motion.div variants={fadeIn('up',0.2)}
                 initial="hidden"
                 whileInView={"show"}
-                viewport={{once:false,amount:0.7}} className="flex flex-col sm:flex-row items-center rounded-sm shadow-sm shadow-white mt-3 w-full max-w-4xl mx-auto">
+                viewport={{once:false,amount:0.7}} className="flex flex-col sm:flex-row items-center rounded-sm shadow-sm shadow-white mt-3 sm:w-full w-[310px] max-w-4xl mx-auto">
   <div className="w-full sm:w-[300px] h-[240px]">
     <img
       className="w-full h-full rounded-sm"

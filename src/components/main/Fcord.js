@@ -19,8 +19,8 @@ const Fcord = () => {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{once:false,amount:0.5}} className='w-full flex flex-col justify-center items-center sm:flex-row mx-auto gap-5'>
-  <div className="flex flex-col sm:flex-row items-center rounded-sm shadow-sm shadow-white mt-3 w-full max-w-lg">
-  <div className="w-full sm:w-[220px] h-[220px] flex-shrink-0">
+  <div className="flex flex-col sm:flex-row items-center rounded-sm shadow-sm shadow-white mt-3 sm:w-full w-[310px] max-w-lg">
+  <div className="w-full sm:w-[220px] sm:h-[220px] h-[230px] flex-shrink-0">
     <img
       className="w-full h-full rounded-sm"
       src={image1}
@@ -57,8 +57,8 @@ const Fcord = () => {
     </div>
   </div>
 </div>
-<div className="flex flex-col sm:flex-row items-center rounded-sm shadow-sm shadow-white mt-3 w-full max-w-lg">
-  <div className="w-full sm:w-[220px] h-[220px] flex-shrink-0">
+<div className="flex flex-col sm:flex-row items-center rounded-sm shadow-sm shadow-white mt-3 sm:w-full w-[310px] max-w-lg">
+  <div className="w-full sm:w-[220px] sm:h-[220px] h-[230px] flex-shrink-0">
     <img
       className="w-full h-full rounded-sm"
       src={image2}
