@@ -19,6 +19,7 @@ const ChairPerson=React.lazy(()=>import('../components/main/ChairPerson.js'))
 const Fcord=React.lazy(()=>import('../components/main/Fcord.js'))
 const Combo=React.lazy(()=>import('../components/main/Combo.js'))
 const General=React.lazy(()=>import('../components/main/General.js'))
+const Sponsors=React.lazy(()=>import('../components/main/Sponsors.js'))
 const Home = () => {
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -65,6 +66,12 @@ const Home = () => {
     <h1 className="font-bold text-[25px] font-varun sm:text-[30px] md:text-[35px] bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent tracking-wider text-center border-b-4 border-b-[#6439ff]">STUDENT COORDINATORS</h1>
   </div>
   <SCord/>
+</section>
+<section id="sponsors" className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-4 overflow-hidden sm:py-24 py-8 px-4'>
+  <div className="flex justify-center items-center">
+    <h1 className="font-bold text-[25px] font-varun sm:text-[30px] md:text-[35px] bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent tracking-wider text-center border-b-4 border-b-[#6439ff]">OUR SPONSORS</h1>
+  </div>
+  <Sponsors/>
 </section>
 <section id="workshops" className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-4 overflow-hidden sm:py-24 py-8 px-4'>
   <div className="flex justify-center items-center">
