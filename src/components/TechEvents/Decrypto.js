@@ -22,7 +22,7 @@ const Decrypto=()=> {
         </div>
         {/* Workshop Info */}
         <div>
-          <h1 className="text-[22px] sm:text-[25px] font-kittu mb-2 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">De-Crypto PDF</h1>
+          <h1 className="text-[22px] sm:text-[25px] font-kittu mb-2 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">Decrypto-O-PDF</h1>
           <p className="text-[15px] sm:text-[17px] font-kittu leading-relaxed mb-4">
           Decrypto PDF is an exhilarating technical event designed to challenge and enhance participants' cryptographic and problem-solving skills. Focused on decoding encrypted files and unraveling digital mysteries, this event pushes the boundaries of logical reasoning and technical acumen. 
           </p>
