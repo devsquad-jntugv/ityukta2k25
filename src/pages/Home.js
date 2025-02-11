@@ -79,7 +79,7 @@ const Home = () => {
     <p className=' sm:hidden flex justify-center items-center gap-1 text-white font-kittu text-[16px] py-[2px] px-[2px] rounded-[2px] '>Combos<ArrowDownIcon size={25} className='animate-bounce text-purple-500'/></p>
   </div>
   <Workshops/>
-  <a href="#combos" className='invisible sm:visible font-kittu py-2 px-3 text-[18px] sm:text-[20px] bg-gradient-to-tr from-[#6439ff] to-[#4f75ff] mt-[30px] text-white rounded-[5px] hover:cursor-pointer flex flex-row gap-2'>Combo offers available <PointerIcon size={30} className='-rotate-180 text-white'/></a>
+  <a href="#combos" className=' font-kittu py-2 px-3 text-[18px] sm:text-[20px] bg-gradient-to-tr from-[#6439ff] to-[#4f75ff] mt-[30px] text-white rounded-[5px] hover:cursor-pointer flex flex-row gap-2'>Combo offers available <PointerIcon size={30} className='-rotate-180 text-white'/></a>
 </section>
 <section id="events" className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-4 overflow-hidden sm:py-24 py-8 px-4'>
   <div className="flex justify-center items-center">
