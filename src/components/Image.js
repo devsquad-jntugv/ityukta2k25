@@ -112,7 +112,7 @@ const TeamCard = () => {
         {profiles.slice(currentIndex, currentIndex + cardsToShow).map((profile, index) => (
           <div
             key={index}
-            className="w-full sm:w-[calc(100%/2-1rem)] md:w-[calc(100%/3-1rem)] lg:w-[calc(100%/4-1rem)] flex-shrink-0 flex flex-col items-center bg-[#000000] rounded-[12px]"
+            className="w-[250px] flex-shrink-0 flex flex-col items-center bg-[#000000] rounded-[12px]"
           >
             <div className="w-[250px] h-[196px] mb-2 relative">
               <img
