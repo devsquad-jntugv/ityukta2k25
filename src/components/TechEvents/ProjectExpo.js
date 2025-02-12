@@ -62,7 +62,7 @@ const ProjectExpo=()=> {
         <div className="bg-[#1a1a1a] px-4 py-3 rounded-lg shadow-lg flex flex-col items-start gap-2">
           <h1 className="text-[20px] sm:text-[24px] font-semibold bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">Event Description</h1>
           <ul className='list-disc ml-[30px] text-[16px] sm:text-[17px] font-kittu text-white'>
-            <li>A student or group of students should prepare a PPT presentatin about idea</li>
+            <li>A student or group of students should bring demo model and prepared documentation or PPT </li>
             <li>PPT should be maximum of 10 slides</li>
             <li>The best idea among the participants will be declared as winner and exciting rewards will be given</li>
             <li><span className='text-[#ff8c2d]'>Participant certificate</span> is provided for everyone,<span className='text-[#ff8c2d]'>for winners Merit certificate</span> is given</li>
