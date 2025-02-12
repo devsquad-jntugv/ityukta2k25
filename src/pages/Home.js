@@ -20,6 +20,7 @@ const Fcord=React.lazy(()=>import('../components/main/Fcord.js'))
 const Combo=React.lazy(()=>import('../components/main/Combo.js'))
 const General=React.lazy(()=>import('../components/main/General.js'))
 const Sponsors=React.lazy(()=>import('../components/main/Sponsors.js'))
+const LiveEvents=React.lazy(()=>import('../components/main/LiveEvents.js'))
 const Home = () => {
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -45,6 +46,9 @@ const Home = () => {
     </section>
     <section id="about" className="bg-[#0e0d0d] w-full flex flex-col md:flex-row justify-center items-center md:gap-3 gap-1 px-6 sm:px-10 overflow-hidden mt-[-40px] sm:mt-0">
        <About/>
+    </section>
+    <section id="LiveEvents" className="bg-[#0e0d0d] w-full flex flex-col md:flex-row justify-center items-center md:gap-3 gap-1 px-6 sm:px-10 overflow-hidden mt-[-40px] sm:mt-0">
+       <LiveEvents/>
     </section>
 <section id="guests" className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-2 overflow-hidden sm:py-20 py-4 px-4'>
   <CGuests/>
