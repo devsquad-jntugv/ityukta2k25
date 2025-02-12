@@ -26,6 +26,7 @@ const Footer = () => {
              <a href="https://www.youtube.com/watch?v=eD-OdHHcayg" target="_blank" rel="noopener noreferrer"><Youtube size={22} className='hover:bg-red-600 px-[1px] py-[1px] rounded-[2px] hover:cursor-pointer'/></a>
            </div>
            <p className='text-[16px] font-varun'>Email: ityukta2k25@gmail.com</p>
+           <p className='text-[16px] font-kittu'>Contact: 8074543896 , 9573548001</p>
          </div>
          <div className='flex flex-col py-2 px-2 items-start gap-2 text-white'>
            <p onClick={() => scrollToSection('home')} className='text-[16px] font-varun hover:cursor-pointer hover:text-purple-400'>Home</p>

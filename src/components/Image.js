@@ -14,26 +14,31 @@ const profiles = [
     name: "Kadali Sai Kishore",
     role: "Treasurer",
     image: treasurer,
+    Contact:"9032092722"
   },
   {
     name: "Masood",
     role: "Co-treasurer",
     image: cotreasurer,
+    Contact:"7386666368"
   },
   {
     name: "P.Snehadeep",
     role: "Sponsorships head",
     image: sponsor,
+    Contact:"7207724469"
   },
   {
     name: "Ch.Saradhi",
     role: "Promotion head",
     image: promotion,
+    Contact:"9959808496"
   },
   {
     name: "P.Venkatesh",
     role: "Overall Tech Coordinator",
     image: overalltech,
+    Contact:"9866025291"
   },
   {
     name: "R.Geethika",
@@ -44,6 +49,7 @@ const profiles = [
     name: "G.Chandra Mouli",
     role: "Overall Non-tech Coordinator",
     image: overallnontech,
+    Contact:"9515299751"
   },
   {
     name: "Ch.Jahnavi",
@@ -54,6 +60,7 @@ const profiles = [
     name: "K.V.Krishna",
     role: "Accomodation head",
     image:accomodation,
+    Contact:"7780771105"
   }
 ];
 
@@ -124,6 +131,7 @@ const TeamCard = () => {
             <div className='flex flex-col justify-center items-center gap-[1px] px-[2px] py-1'>
             <h2 className="text-[18px] sm:text-[20px] font-bold text-center">{profile.name}</h2>
             <p className="text-purple-600 text-[15px] sm:text-[17px] font-medium text-center">{profile.role}</p>
+            <p className="text-indigo-200 text-[15px] sm:text-[17px] font-medium text-center">{profile.Contact}</p>
             </div>
           </div>
         ))}
