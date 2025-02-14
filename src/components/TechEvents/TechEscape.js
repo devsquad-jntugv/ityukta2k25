@@ -64,7 +64,7 @@ const TechEscape=()=> {
           <ul className='list-disc ml-[30px] text-[16px] sm:text-[17px] font-kittu text-white'>
             <li>Its's a team game,a question is  revealed to team at once</li>
             <li>event consists of 7 levels,each level has 5 minutes.</li>
-            <li>team will be rewarded with coins(varies with time) when they solve within time limit or else emilinated.</li>
+            <li>team will be rewarded with coins(varies with time) when they solve within time limit or else emilinated and unexpected twists will be revealed at the time of game.</li>
             <li>whoever cracks all the 7 levels and collects most coins will be considered as winners</li>
             <li><span className='text-[#ff8c2d]'>Participant certificate</span> is provided for everyone,<span className='text-[#ff8c2d]'>for winners Merit certificate</span> is given</li>
           </ul>
