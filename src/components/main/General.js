@@ -50,7 +50,7 @@ const General = () => {
         </div>
         <div className='flex flex-col items-start gap-1 text-white px-2 py-2 font-kittu'>
         <ul className='ml-[20px] text-[16px] sm:text-[17px] list-disc'>
-            <li className='flex flex-row gap-3'>QR - <img src={Scan} alt="scanner" className='w-[170px] h-[170px] rounded-[3px]'/></li>
+            <li className='flex flex-row gap-3'> Google form QR - <img src={Scan} alt="scanner" className='w-[170px] h-[170px] rounded-[3px]'/></li>
         </ul>
         </div>
       </div>

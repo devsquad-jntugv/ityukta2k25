@@ -84,7 +84,7 @@ const Devops = () => {
 
         {/* QR Code Section */}
         <div className="bg-[#1a1a1a] p-6 rounded-lg shadow-lg flex flex-col items-center gap-4">
-          <p className="text-lg font-medium">Register Using QR Code</p>
+          <p className="text-lg font-medium">Register Using Google form QR Code</p>
           <img src={Scan} alt="scanner" className='h-[170px] w-[170px] rounded-[3px]' />
           <a href=" https://docs.google.com/forms/d/e/1FAIpQLSdUsRIKckeBLihQHf4Gd0fTycE5o3d_oJtn373vE0iepgSddw/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-[#6439ff] to-[#4f75ff] text-white px-6 py-2 rounded-lg transition">
             Register

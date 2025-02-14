@@ -85,7 +85,7 @@ const PowerBI = () => {
 
         {/* QR Code Section */}
         <div className="bg-[#1a1a1a] p-6 rounded-lg shadow-lg flex flex-col items-center gap-4">
-          <p className="text-lg font-medium">Pay Using QR Code</p>
+          <p className="text-lg font-medium">Pay Using Google form QR Code</p>
           <img src={Scan} className='w-[170px] h-[170px] rounded-[3px]' alt="scanner" />
           <a href=" https://forms.gle/DD1MRpbcuZFFmBuu6" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-[#6439ff] to-[#4f75ff] text-white px-6 py-2 rounded-lg transition">
             Register
