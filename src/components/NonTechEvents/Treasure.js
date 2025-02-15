@@ -43,7 +43,7 @@ const Treasure=()=> {
               <NotebookPen  size={24} className='text-blue-500'/>
               <strong className='font-kittu'>Registration Fees :</strong>
               <IndianRupee size={16} className="ml-2 text-yellow-500"/>
-              50/person
+              200/squad
             </p>
             <p className='flex flex-row items-center gap-1 text-[16px] sm:text-[17px] font-kittu'><AlertTriangleIcon size={24} className='text-red-600'/>Before registering this event make sure that your general registration is completed</p>
           </div>
