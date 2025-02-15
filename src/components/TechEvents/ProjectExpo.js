@@ -45,8 +45,7 @@ const ProjectExpo=()=> {
               <ul className='list-disc text-[15px] sm:text-[17px] font-kittu text-white'>
                 <li className='flex gap-1 items-center'><IndianRupee size={16} className="ml-2 text-yellow-500"/>100-single person</li>
                 <li className='flex gap-1 items-center' ><IndianRupee size={16} className="ml-2 text-yellow-500"/>150-Duo</li>
-                <li className='flex gap-1 items-center'><IndianRupee size={16} className="ml-2 text-yellow-500"/>200-Trio</li>
-                <li className='flex gap-1 items-center'><IndianRupee size={16} className="ml-2 text-yellow-500"/>250- 4mem squad</li>
+                <li className='flex gap-1 items-center'><IndianRupee size={16} className="ml-2 text-yellow-500"/>200-Trio or Squad</li>
               </ul>
             </p>
             <p className='flex flex-row items-center gap-1 text-[16px] sm:text-[17px] font-kittu'><AlertTriangleIcon size={24} className='text-red-600'/>Before registering this event make sure that your general registration is completed</p>
