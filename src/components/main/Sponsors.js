@@ -1,16 +1,24 @@
 import React from 'react'
 import Person from '../../assets/IcSponsor.png'
 import Hippo from '../../assets/hippo.png'
+import Chennai from '../../assets/Chennai.png'
 const sponsors=[
     {
         id:1,
+        name:"Chennai Shopping Mall",
+        logo:Chennai,
+        address:"Vizianagarm",
+        
+    },
+    {
+        id:2,
         name:"HippoCloud Technologies pvt.ltd",
         logo:Hippo,
         address:"Vizag",
         url:"https://hippoclouds.com/"
     },
     {
-        id:2,
+        id:3,
         name:"IC Computers",
         logo:Person,
         address:"Vizag",

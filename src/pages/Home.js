@@ -8,7 +8,7 @@ const Navbar=React.lazy(()=>import('../components/Navbar.js'))
 const About =React.lazy(()=>import('../components/main/About.js'))
 const SCord=React.lazy(()=>import('../components/main/SCord.js'))
 // const HGuests=React.lazy(()=>import('../components/main/HGuests.js'))
-const CGuests=React.lazy(()=>import('../components/main/CGuests.js'))
+//const CGuests=React.lazy(()=>import('../components/main/CGuests.js'))
 const Events=React.lazy(()=>import('../components/Events.js'))
 const Footer=React.lazy(()=>import('../components/Footer.js'))
 const TeamCard=React.lazy(()=>import('../components/Image.js'))
@@ -50,27 +50,13 @@ const Home = () => {
     <section id="LiveEvents" className="bg-[#0e0d0d] w-full flex flex-col md:flex-row justify-center items-center md:gap-3 gap-1 px-6 sm:px-10 overflow-hidden mt-[-40px] sm:mt-0">
        <LiveEvents/>
     </section>
-<section id="guests" className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-2 overflow-hidden sm:py-20 py-4 px-4'>
+{/*<section id="guests" className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-2 overflow-hidden sm:py-20 py-4 px-4'>
   <CGuests/>
-</section>
+</section>*/}
 {/*<section className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-2 overflow-hidden py-8 px-4'>
   <HGuests/>
 </section>*/}
-<section id="guests" className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-2 overflow-hidden sm:py-24 py-8 px-4'>
-  <Patrons/>
-</section>
-<section id="guests" className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-2 overflow-hidden sm:py-24 py-8 px-4 mx-auto sm:mx-0'>
-  <ChairPerson/>
-</section>
-<section id="guests" className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-2 overflow-hidden sm:py-24 py-8 px-4 mx-auto sm:mx-0'>
-  <Fcord/>
-</section>
-<section className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-2 overflow-hidden py-8 px-4'>
-  <div className='flex flex-col justify-center items-center gap-4'>
-    <h1 className="font-bold text-[25px] font-varun sm:text-[30px] md:text-[35px] bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent tracking-wider text-center border-b-4 border-b-[#6439ff]">STUDENT COORDINATORS</h1>
-  </div>
-  <SCord/>
-</section>
+
 <section id="sponsors" className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-4 overflow-hidden sm:py-24 py-8 px-4'>
   <div className="flex justify-center items-center">
     <h1 className="font-bold text-[25px] font-varun sm:text-[30px] md:text-[35px] bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent tracking-wider text-center border-b-4 border-b-[#6439ff]">OUR SPONSORS</h1>
@@ -110,6 +96,21 @@ const Home = () => {
     <h1 className="font-bold text-[25px] font-varun sm:text-[30px] md:text-[35px] bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent tracking-wider text-center border-b-4 border-b-[#6439ff]">REGISTRATION</h1>
   </div>
   <General/>
+</section>
+<section id="guests" className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-2 overflow-hidden sm:py-24 py-8 px-4'>
+  <Patrons/>
+</section>
+<section id="guests" className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-2 overflow-hidden sm:py-24 py-8 px-4 mx-auto sm:mx-0'>
+  <ChairPerson/>
+</section>
+<section id="guests" className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-2 overflow-hidden sm:py-24 py-8 px-4 mx-auto sm:mx-0'>
+  <Fcord/>
+</section>
+<section className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-2 overflow-hidden py-8 px-4'>
+  <div className='flex flex-col justify-center items-center gap-4'>
+    <h1 className="font-bold text-[25px] font-varun sm:text-[30px] md:text-[35px] bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent tracking-wider text-center border-b-4 border-b-[#6439ff]">STUDENT COORDINATORS</h1>
+  </div>
+  <SCord/>
 </section>
 <section className='bg-[#0e0d0d] w-full flex flex-col justify-center items-center gap-6 overflow-hidden sm:py-24 py-8 px-4'>
   <div className="flex justify-center items-center gap-2 w-full">
