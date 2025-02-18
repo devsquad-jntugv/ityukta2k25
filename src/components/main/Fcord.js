@@ -1,9 +1,9 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 import { fadeIn } from '../../variants'
-import { Twitter,Linkedin } from 'lucide-react'
 import image1 from '../../assets/Rozi Mam.jpg'
 import image2 from '../../assets/Manasa Mam.jpg'
+import image3 from '../../assets/anilsir.jpg'
 const Fcord = () => {
   return (
     <>
@@ -19,8 +19,31 @@ const Fcord = () => {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{once:false,amount:0.5}} className='w-full flex flex-col justify-center items-center sm:flex-row mx-auto gap-5'>
-  <div className="flex flex-col sm:flex-row items-center rounded-sm shadow-sm shadow-white mt-3 sm:w-full w-[310px] max-w-lg">
-  <div className="w-full sm:w-[220px] sm:h-[220px] h-[230px] flex-shrink-0">
+  <div className="flex flex-col  items-center rounded-sm shadow-sm shadow-white mt-3  w-[310px] max-w-lg">
+  <div className="w-full sm:h-[220px] h-[230px]">
+    <img
+      className="w-full h-full rounded-sm"
+      src={image3}
+      alt="HOD"
+    />
+  </div>
+  <div className="flex flex-col justify-start items-start py-4 px-2 sm:px-4 w-full">
+    <div className="flex flex-col items-start gap-2">
+      <h1 className="text-[19px] sm:text-[21px] font-kittu text-white leading-tight">
+      Mr. Anil Wurity
+      </h1>
+      <p className="text-[16px] sm:text-[17px] font-kittu text-[#5131e1]">
+        Faculty Coordinator
+      </p>
+      <p className="text-[15px] sm:text-[16px] font-kittu text-white leading-snug">
+        Assistant Professor,Dept.of IT
+      </p>
+    </div>
+    
+  </div>
+</div>
+  <div className="flex flex-col  items-center rounded-sm shadow-sm shadow-white mt-3 w-[310px] max-w-lg">
+  <div className="w-full sm:h-[220px] h-[230px]">
     <img
       className="w-full h-full rounded-sm"
       src={image1}
@@ -39,26 +62,11 @@ const Fcord = () => {
         Assistant Professor,Dept.of IT
       </p>
     </div>
-    <div className="flex justify-start items-center pt-4 gap-4">
-      <a
-        href
-        className="text-white hover:text-blue-400 transition-colors duration-200 hover:cursor-pointer"
-        aria-label="Twitter"
-      >
-        <Twitter className="w-6 h-6" />
-      </a>
-      <a
-        href
-        className="text-white hover:text-blue-700 transition-colors duration-200 hover:cursor-pointer"
-        aria-label="LinkedIn"
-      >
-        <Linkedin className="w-6 h-6" />
-      </a>
-    </div>
+    
   </div>
 </div>
-<div className="flex flex-col sm:flex-row items-center rounded-sm shadow-sm shadow-white mt-3 sm:w-full w-[310px] max-w-lg">
-  <div className="w-full sm:w-[220px] sm:h-[220px] h-[230px] flex-shrink-0">
+<div className="flex flex-col items-center rounded-sm shadow-sm shadow-white mt-3 w-[310px] max-w-lg">
+  <div className="w-full sm:h-[220px] h-[230px]">
     <img
       className="w-full h-full rounded-sm"
       src={image2}
@@ -77,22 +85,7 @@ const Fcord = () => {
         Assistant Professor,Dept.of IT
       </p>
     </div>
-    <div className="flex justify-start items-center pt-4 gap-4">
-      <a
-        href
-        className="text-white hover:text-blue-400 transition-colors duration-200 hover:cursor-pointer"
-        aria-label="Twitter"
-      >
-        <Twitter className="w-6 h-6" />
-      </a>
-      <a
-        href
-        className="text-white hover:text-blue-700 transition-colors duration-200 hover:cursor-pointer"
-        aria-label="LinkedIn"
-      >
-        <Linkedin className="w-6 h-6" />
-      </a>
-    </div>
+    
   </div>
 </div>
 </motion.div> 

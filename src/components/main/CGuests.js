@@ -23,7 +23,7 @@ const CGuests = () => {
                 },
                 {
                   name: "Prof. Dr.G.Jayasuma",
-                  role: "Registrar",
+                  role: "Hon'ble Registrar",
                   company: "JNTUGV",
                   image: person2,
                   bio: "Pioneering engineer with extensive experience in spacecraft systems and sustainable energy solutions.",

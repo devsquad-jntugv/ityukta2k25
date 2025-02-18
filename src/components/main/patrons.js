@@ -9,7 +9,7 @@ const Patrons = () => {
             {
               name: "Prof. R. Rajeswara Rao",
               role: "Principal",
-              company: "JNTUGV",
+              company: "JNTU-GV College of Engineering Vizianagaram",
               image: Image1,
               bio: "Leading researcher in artificial intelligence and machine learning, with groundbreaking work in neural networks.",
               session: "Future of AI in Technology",
@@ -23,7 +23,7 @@ const Patrons = () => {
             {
               name: "Dr. G. J. Naga Raju",
               role: "Vice Principal",
-              company: "JNTUGV",
+              company: "JNTU-GV College of Engineering Vizianagaram",
               image: image2,
               bio: "Pioneering engineer with extensive experience in spacecraft systems and sustainable energy solutions.",
               session: "Space Technology and Innovation",
