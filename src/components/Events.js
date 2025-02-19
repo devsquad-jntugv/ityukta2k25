@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import treasure from "../assets/treasure.jpg"
 import explode from "../assets/explode.jpg"
-import reflect from "../assets/reflect.jpg"
+import reflect from "../assets/reflect.png"
 import meme from "../assets/meme.jpg"
 import bounty from "../assets/bounty.jpg"
 import decrypt from "../assets/decrypt.jpg"

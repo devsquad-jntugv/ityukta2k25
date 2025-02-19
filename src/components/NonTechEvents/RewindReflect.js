@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
-import De from '../../assets/reflect1.jpg'
+import De from '../../assets/reflect1.png'
 import {Calendar,Timer,Clock,NotebookPen,IndianRupee,ArrowLeft, AlertTriangleIcon } from 'lucide-react';
 import Scan from '../../assets/nontechscan.jpg'
 const RewindReflect=()=> {
