@@ -4,7 +4,13 @@ import { fadeIn } from '../../variants'
 import image1 from '../../assets/Rozi Mam.jpg'
 import image2 from '../../assets/Manasa Mam.jpg'
 import image3 from '../../assets/anilsir.jpg'
+//import { LucideArrowRightCircle } from 'lucide-react'
+//import { useNavigate } from 'react-router-dom'
 const Fcord = () => {
+  /*const navigate=useNavigate();
+  const handelNavigate=(path)=>{
+    navigate(path);
+  }*/
   return (
     <>
       <motion.div
@@ -24,7 +30,7 @@ const Fcord = () => {
     <img
       className="w-full h-full rounded-sm"
       src={image3}
-      alt="HOD"
+      alt="1"
     />
   </div>
   <div className="flex flex-col justify-start items-start py-4 px-2 sm:px-4 w-full">
@@ -47,7 +53,7 @@ const Fcord = () => {
     <img
       className="w-full h-full rounded-sm"
       src={image1}
-      alt="HOD"
+      alt="2"
     />
   </div>
   <div className="flex flex-col justify-start items-start py-4 px-2 sm:px-4 w-full">
@@ -70,7 +76,7 @@ const Fcord = () => {
     <img
       className="w-full h-full rounded-sm"
       src={image2}
-      alt="HOD"
+      alt="3"
     />
   </div>
   <div className="flex flex-col justify-start items-start py-4 px-2 sm:px-4 w-full">
@@ -88,6 +94,9 @@ const Fcord = () => {
     
   </div>
 </div>
+{/*<button onClick={()=>handelNavigate('/faculty')} className='px-[4px] py-[4px] rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500'>
+    <LucideArrowRightCircle size={28} className='text-center text-white'/>
+</button>*/}
 </motion.div> 
     </>
   )

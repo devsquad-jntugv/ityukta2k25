@@ -16,6 +16,7 @@ import Meme from './components/NonTechEvents/Meme';
 import PowerBI from './components/WorkshopPages/PowerBI';
 import Devops from './components/WorkshopPages/Devops';
 import ExplodeEntertain from './components/NonTechEvents/ExplodeEntertain';
+//import Support from './components/main/Support';
 const Home=React.lazy(()=>import('./pages/Home'))
 function App() {
    const [loading,setLoading]=useState(true);
@@ -43,6 +44,7 @@ function App() {
           <Route path='/powerbi' element={<PowerBI/>}/>
           <Route path='/devops' element={<Devops/>}/>
           <Route path='/entertain' element={<ExplodeEntertain/>}/>
+          {/*<Route path='/faculty' element={<Support/>}/>*/}
         </Routes>
       </Router>
       }
