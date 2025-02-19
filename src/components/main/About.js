@@ -12,7 +12,7 @@ const About =() => {
     viewport={{once:false,amount:0.7}}
 
     className="flex flex-col justify-center items-center gap-4 py-16">
-    <h1 className="font-bold text-[25px] font-varun sm:text-[30px] md:text-[35px] bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent tracking-wider text-center border-b-4 border-b-[#6439ff]">
+    <h1 className="font-bold text-[25px] font-varun sm:text-[30px] md:text-[35px] bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent tracking-wider  border-b-4 border-b-[#6439ff]">
       ABOUT ITYUKTA
     </h1>
     <p className="font-kittu text-white text-[17px] sm:text-[18px] md:text-[19px] text-justify">
