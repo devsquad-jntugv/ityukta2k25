@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { fadeIn } from '../../variants.js'
 import Chief from '../Chief.js'
 import person1 from '../../assets/vc.png'
-import person2 from '../../assets/registrer.jpeg'
+import person2 from '../../assets/registrer.jpg'
 const CGuests = () => {
   const chiefGuests = [
                 {
