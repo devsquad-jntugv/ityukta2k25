@@ -63,7 +63,7 @@ const KnowKnock=()=> {
           <h1 className="text-[20px] sm:text-[24px] font-semibold bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">Event Description</h1>
           <ul className='list-disc ml-[30px] text-[16px] sm:text-[17px] font-kittu text-white'>
             <li>Participants must select one subject from the three available options.</li>
-            <li>An exam will be conducted based on the chosen subject.</li>
+            <li>An objective exam will be conducted based on the chosen subject.</li>
             <li>Participants will be evaluated based on their performance in the exam.</li>
             <li>The participant(s) scoring the highest marks will be declared the winner(s).</li>
             <li><span className='text-[#ff8c2d]'>Participant certificate</span> is provided for everyone,<span className='text-[#ff8c2d]'>for winners Merit certificate</span> is given</li>
