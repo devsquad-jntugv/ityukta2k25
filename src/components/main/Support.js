@@ -4,6 +4,7 @@ import Geeta from '../../assets/geeta.jpg'
 import Srikant from '../../assets/srikant.jpg'
 import Madhu from '../../assets/Madhu.jpg'
 import Venkat from '../../assets/venkat.jpg'
+import harita from '../../assets/harita.jpg'
 import {LucideArrowLeftCircle} from 'lucide-react'
 import { useNavigate } from 'react-router-dom';
 const people = [
@@ -30,17 +31,24 @@ const people = [
   },
   {
     id: 4,
-    name: "Mrs. M. Geetha Madhuri",
-    role: "Technical Events Coordinator",
-    designation:"Assistant Professor(c),Dept.of IT",
-    imageUrl:Geeta
-  },
-  {
-    id: 5,
     name: "Mrs. Madhumita Chanda",
     role: "Technical Events Coordinator",
     designation:"Assistant Professor(c),Dept.of IT",
     imageUrl:Madhu
+  },
+  {
+    id: 5,
+    name: "Mrs. M. Geetha Madhuri",
+    role: "Non-Technical Events Coordinator",
+    designation:"Assistant Professor(c),Dept.of IT",
+    imageUrl:Geeta
+  },
+  {
+    id: 6,
+    name: "Mrs. K.Sai Haritha",
+    role: "Inauguration & Valedictory",
+    designation:"Guest Faculty,Dept.of IT",
+    imageUrl:harita
   },
 ];
 
@@ -69,6 +77,7 @@ const Support=()=> {
                     className="w-full h-full rounded-sm"
                     src={person.imageUrl}
                     alt="Faculty"
+                    loading='lazy'
                   />
                 </div>
               <div className="px-2 py-2">

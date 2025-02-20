@@ -39,6 +39,7 @@ const ProjectExpo=()=> {
             <p className="flex items-center gap-1 font-kittu"><Calendar size={24} className='text-blue-500'/><strong className='font-kittu'>Date :</strong> Feb 24</p>
             <p className="flex items-center gap-1 font-kittu"><Timer size={24} className='text-blue-500'/><strong className='font-kittu'>Duration :</strong>2 Days</p>
             <p className="flex items-center gap-1 font-kittu"><Clock size={24} className='text-blue-500'/><strong className='font-kittu'>Time :</strong>10am</p>
+            <p className="flex items-center gap-1 font-kittu"><Clock size={24} className='text-blue-500'/><strong className='font-kittu'>Place :</strong>LH-33</p>
             <p className="flex items-center gap-1 font-kittu">
               <NotebookPen  size={24} className='text-blue-500'/>
               <strong className='font-kittu'>Registration Fees :</strong>
