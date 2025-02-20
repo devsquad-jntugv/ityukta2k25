@@ -37,7 +37,7 @@ const Culturals = () => {
       </span>
       <span className='text-[16px] sm:text-[18px] text-white font-kittu flex justify-center  gap-1'>
         <Clock8Icon size={20} className='text-blue-600'/>
-        <p>Time : 3pm</p>
+        <p>Time : 4pm</p>
       </span>
     </div>
   </div>
