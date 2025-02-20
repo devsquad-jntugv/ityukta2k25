@@ -9,48 +9,21 @@ const CGuests = () => {
   const chiefGuests = [
                 {
                   name: "Dr.D.Rajya Lakshmi",
-                  role: "Hon'ble Vice Chancellor",
+                  role: "Hon'ble Vice Chancellor(i/c)",
                   company: "JNTU-GV,Vizianagaram",
                   image:person1,
-                  bio: "Leading researcher in artificial intelligence and machine learning, with groundbreaking work in neural networks.",
-                  session: "Future of AI in Technology",
-                  venue: "Main Auditorium",
-                  date: "March 15, 2024 - 10:00 AM",
-                  social: {
-                    twitter: "#",
-                    linkedin: "#",
-                    
-                  }
                 },
                 {
-                  name: "Shri Srinivas Muppaala",
-                  role: "IRSME,Zonal Development Commissioner",
+                  name: "Shri Srinivas Muppaala,IRSME",
+                  role: "Zonal Development Commissioner",
                   company: "Visakhapatnam Special Economic Zone",
                   image:person3,
-                  bio: "Leading researcher in artificial intelligence and machine learning, with groundbreaking work in neural networks.",
-                  session: "Future of AI in Technology",
-                  venue: "Main Auditorium",
-                  date: "March 15, 2024 - 10:00 AM",
-                  social: {
-                    twitter: "#",
-                    linkedin: "#",
-                    
-                  }
                 },
                 {
                   name: "Dr. G.Jayasuma",
                   role: "Hon'ble Registrar",
                   company: "JNTU-GV,Vizianagaram",
                   image: person2,
-                  bio: "Pioneering engineer with extensive experience in spacecraft systems and sustainable energy solutions.",
-                  session: "Space Technology and Innovation",
-                  venue: "Innovation Hub",
-                  date: "March 16, 2024 - 2:00 PM",
-                  social: {
-                    twitter: "#",
-                    linkedin: "#",
-                    
-                  }
                 },
               ];
   return (

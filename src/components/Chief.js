@@ -19,8 +19,8 @@ const Chief = ({chiefGuests=[]}) => {
                       className="w-full h-full bg-cover rounded-sm"
                       loading='lazy'
                     />
-                    <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                      <h3 className="text-xl font-semibold text-white">{guest.name}</h3>
+                    <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-3">
+                      <h3 className="text-[19px] font-semibold text-white">{guest.name}</h3>
                       <p className="text-white">{guest.role}</p>
                       <p className="text-white text-sm">{guest.company}</p>
                     </div>
