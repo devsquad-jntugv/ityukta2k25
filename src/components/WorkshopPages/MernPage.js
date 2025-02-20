@@ -36,6 +36,18 @@ const MernPage = () => {
                 <PenLineIcon size={24} className="text-green-500 mr-2" />
                 Laptops along with chargers
               </li>
+              <li className="flex items-center">
+                <PenLineIcon size={24} className="text-green-500 mr-2" />
+                Google Cloud account (Gmail/Google Workspace Account)
+              </li>
+              <li className="flex items-center">
+                <PenLineIcon size={24} className="text-green-500 mr-2" />
+                Microsoft 365 Account (for Copilot Studio access)
+              </li>
+              <li className="flex items-center">
+                <PenLineIcon size={24} className="text-green-500 mr-2" />
+                Laptops along with chargers
+              </li>
             </ul>
           </div>
           <div>
@@ -43,19 +55,19 @@ const MernPage = () => {
             <ul className="space-y-2">
               <li className="flex items-center">
                 <CheckCircle size={24} className="text-green-500 mr-2" />
-                Programming Fundamentals
+                Understand the basics of chatbot design, NLP, and AI-powered conversational agents
               </li>
               <li className="flex items-center">
                 <CheckCircle size={24} className="text-green-500 mr-2" />
-                Natural Language Processing
+                Learn to design chatbots using Dialogflow ES and CX
               </li>
               <li className="flex items-center">
                 <CheckCircle size={24} className="text-green-500 mr-2" />
-                Machine Learning & Deep Learning
+                Gain hands-on experience
               </li>
               <li className="flex items-center">
                 <CheckCircle size={24} className="text-green-500 mr-2" />
-                API Integration
+                Deploy chatbots and integrate them
               </li>
             </ul>
           </div>
@@ -71,7 +83,7 @@ const MernPage = () => {
           <div className="text-sm space-y-2">
             <p className="flex items-center gap-1"><Calendar size={24} className='text-blue-500'/><strong className='font-kittu'>Date :</strong> Feb 24 and 25</p>
             <p className="flex items-center gap-1"><Timer size={24} className='text-blue-500'/><strong className='font-kittu'>Duration :</strong> 2 days</p>
-            <p className="flex items-center gap-1"><Clock size={24} className='text-blue-500'/><strong className='font-kittu'>Time :</strong> 10am to 4pm</p>
+            <p className="flex items-center gap-1"><Clock size={24} className='text-blue-500'/><strong className='font-kittu'>Time :</strong> 12pm to 4pm</p>
             <p className="flex items-center gap-1">
               <NotebookPen  size={24} className='text-blue-500'/>
               <strong className='font-kittu'>Registration Fees :</strong>

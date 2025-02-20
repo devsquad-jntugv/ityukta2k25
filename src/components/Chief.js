@@ -12,7 +12,7 @@ const Chief = ({chiefGuests=[]}) => {
             <div className="flex flex-col justify-center items-center sm:flex-row sm:gap-12 gap-8">
               {chiefGuests.map((guest, index) => (
                 <div key={index} className="bg-[#0e0d0d] rounded-sm shadow-md shadow-[#fef3f3] overflow-hidden transform hover:scale-105 transition-transform duration-300">
-                  <div className="relative h-[300px] w-[300px]">
+                  <div className="relative h-[310px] w-[300px]">
                     <img
                       src={guest.image}
                       alt={guest.name}

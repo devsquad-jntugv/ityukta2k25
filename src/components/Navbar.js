@@ -52,7 +52,7 @@ const Navbar = () => {
             <button  onClick={() => scrollToSection('workshops')} className='px-4 py-2 text-[17px] sm:text-[19px] font-kittu rounded-[5px] border border-4-white bg-transparent text-white hover:bg-gradient-to-r from-[#6439ff] to-[#4f75ff] transition-colors duration-150'>Participate</button>
           </div>*/}
           <div className='flex flex-row gap-1 items-center'>
-          <div className="mt-3 bg-transparent mr-3 hidden sm:block">
+          <div className="mt-3 bg-transparent mr-3 hidden md:block">
             <a href="https://jntukucev.hosting2.acm.org/" target='_blank' rel="noopener noreferrer"><img src={acm} alt="acm" loading='lazy' className="h-[75px] w-[75px] rounded-full bg-cover"/></a>
           </div>
           </div>
