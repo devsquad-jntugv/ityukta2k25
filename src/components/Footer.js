@@ -17,7 +17,7 @@ const Footer = () => {
      <footer className='bg-[#000000] w-full overflow-hidden flex flex-col items-start gap-3 sm:justify-around sm:flex-row sm:items-center py-4 px-4'>
          <div className='flex flex-col py-2 px-2 items-start gap-2 text-white'>
            <h1 className='text-[18px] font-kittu bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent'>ITYUKTA 2k25</h1>
-           <p className='text-[16px] font-varun'>A National Level Tech-fest | JNTU-GV IT</p>
+           <p className='text-[16px] font-varun'>A National Level Technical-fest | JNTU-GV IT</p>
            <p className='text-[16px] font-varun'>Follow us for updates on :</p>
            <div className='flex gap-2 items-center justify-start transition-all'>
              
