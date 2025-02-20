@@ -8,7 +8,7 @@ import person3 from '../../assets/guest.jpg'
 const CGuests = () => {
   const chiefGuests = [
                 {
-                  name: "Dr.D.Rajya Lakshmi",
+                  name: "Dr. D.Rajya Lakshmi",
                   role: "Hon'ble Vice Chancellor(i/c)",
                   company: "JNTU-GV,Vizianagaram",
                   image:person1,
