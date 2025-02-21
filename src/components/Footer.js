@@ -41,7 +41,7 @@ const Footer = () => {
            <p onClick={() => scrollToSection('culturals')} className='text-[16px] font-varun hover:cursor-pointer hover:text-purple-400'>Culturals & Flashmob</p>
          </div>
      </footer>
-     <p className='text-[12px] sm:text-[15px] font-kittu text-center text-white'>Copyright ©2025 All rights reserved | JNTU-GV | Dept.of IT,Yukta DevSquad</p>
+     <p className='text-[12px] sm:text-[15px] font-kittu text-center text-white'>Copyright ©2025 All rights reserved | JNTU-GV | Dept.of IT 3rd year,Yukta DevSquad</p>
     </div>
   )
 }
