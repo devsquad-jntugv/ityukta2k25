@@ -18,17 +18,17 @@ const people = [
   },
   {
     id: 2,
-    name: "Mr. P. Venkateswarlu",
-    role: "Food Coordinator",
-    designation:"Assistant Professor(c),Dept.of IT",
-    imageUrl:Venkat
-  },
-  {
-    id: 3,
     name: "Dr. K. Srikanth",
     role: "Workshops and Food Coordinator",
     designation:"Assistant Professor(c),Dept.of IT",
     imageUrl:Srikant
+  },
+  {
+    id: 3,
+    name: "Mr. P. Venkateswarlu",
+    role: "Food Coordinator",
+    designation:"Assistant Professor(c),Dept.of IT",
+    imageUrl:Venkat
   },
   {
     id: 4,
