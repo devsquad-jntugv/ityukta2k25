@@ -1,27 +1,19 @@
-import React,{useRef} from 'react'
+import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import AI from '../../assets/chatbot.jpg'
 import PB from '../../assets/power.jpg'
 import Dev from '../../assets/Devops.jpg'
 import { BotIcon} from 'lucide-react';
-import { motion,useInView } from 'framer-motion'
-import { popUpVariant } from '../../variants.js'
 const Workshops = () => {
  const navigate=useNavigate();
  const handelNavigate=(path)=>{
    alert('make sure your general registration is done');
    navigate(path)
  }
- const ref = useRef(null);
- const isInView = useInView(ref, { once: true, margin: "-100px" });
   return (
     <>
     <div className='flex flex-col w-full sm:flex-row items-center justify-center gap-5 mt-3'>
-    <motion.div ref={ref}
-      variants={popUpVariant}
-      initial="hidden"
-      animate={isInView ? "visible" : "hidden"}
-            transition={{ delay: 0.2 }} className='flex flex-col justify-center items-start gap-2 font-kittu text-white bg-[#1f1e1e] border border-2-[#000] rounded-xl w-[360px] sm:w-[420px] transition-shadow duration-300 hover:cursor-pointer'>
+    <div className='flex flex-col justify-center items-start gap-2 font-kittu text-white bg-[#1f1e1e] border border-2-[#000] rounded-xl w-[360px] sm:w-[420px] transition-transform transform hover:scale-105 duration-300 hover:cursor-pointer'>
       <div className='w-full '>
         <img src={AI} alt="" className='rounded-t-xl h-[220px] w-full'/>
       </div>
@@ -40,12 +32,8 @@ const Workshops = () => {
         <p className='text-[18px] sm:text-[20px] font-bold font-varun text-green-500 tracking-wider'>Price:<span>600/-</span></p>
         <button onClick={()=>handelNavigate('/chatbot')} className='py-2 px-2 w-full font-kittu rounded-full bg-gradient-to-tr from-[#5356ff] to-[#378ce7]'>View Details</button>
       </div>
-    </motion.div>
-    <motion.div ref={ref}
-      variants={popUpVariant}
-      initial="hidden"
-      animate={isInView ? "visible" : "hidden"}
-            transition={{ delay: 0.2 }}  className='flex flex-col justify-center items-start gap-2 font-kittu text-white bg-[#1f1e1e] border border-2-[#000] rounded-xl w-[360px] sm:w-[420px] transition-shadow duration-300 hover:cursor-pointer'>
+    </div>
+    <div className='flex flex-col justify-center items-start gap-2 font-kittu text-white bg-[#1f1e1e] border border-2-[#000] rounded-xl w-[360px] sm:w-[420px] transition-transform transform hover:scale-105 duration-300 hover:cursor-pointer'>
       <div className='w-full '>
         <img src={Dev} alt="" className=' rounded-t-xl h-[220px] w-full'/>
       </div>
@@ -63,12 +51,8 @@ const Workshops = () => {
         <p className='text-[18px] sm:text-[20px] font-bold font-varun text-green-500 tracking-wider'>Price:<span>600/-</span></p>
         <button onClick={()=>handelNavigate('/devops')} className='py-2 px-2 w-full font-kittu rounded-full bg-gradient-to-tr from-[#5356ff] to-[#378ce7]'>View Details</button>
       </div>
-    </motion.div>
-    <motion.div ref={ref}
-      variants={popUpVariant}
-      initial="hidden"
-      animate={isInView ? "visible" : "hidden"}
-            transition={{ delay: 0.2 }} className='flex flex-col justify-center items-start gap-2 font-kittu text-white bg-[#1f1e1e] border border-2-[#000] rounded-xl w-[360px] sm:w-[420px] transition-shadow duration-300 hover:cursor-pointer'>
+    </div>
+    <div className='flex flex-col justify-center items-start gap-2 font-kittu text-white bg-[#1f1e1e] border border-2-[#000] rounded-xl w-[360px] sm:w-[420px] transition-transform transform hover:scale-105 duration-300 hover:cursor-pointer'>
       <div className='w-full '>
         <img src={PB} alt="" className=' rounded-t-xl h-[220px] w-full'/>
       </div>
@@ -86,7 +70,7 @@ const Workshops = () => {
         <p className='text-[18px] sm:text-[20px] font-bold font-varun text-green-500 tracking-wider'>Price:<span>600/-</span></p>
         <button onClick={()=>handelNavigate('/powerbi')} className='py-2 px-2 w-full font-kittu rounded-full bg-gradient-to-tr from-[#5356ff] to-[#378ce7]'>View Details</button>
       </div>
-    </motion.div>
+    </div>
   </div>
     </>
   )
