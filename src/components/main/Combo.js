@@ -22,6 +22,14 @@ const Combo = () => {
     <h1 className='text-white text-[22px] sm:text-[24px] font-kittu'>Team Register</h1>
     <div className='flex flex-col justify-center items-center gap-2 w-full'>
     <div className='flex flex-col justify-center items-center gap-2 py-2 px-4 w-[90%] rounded-[10px] bg-white hover:cursor-pointer hover:bg-gray-300 transition-colors duration-150'>
+      <h1 className='text-[20px] sm:text-[22px] font-bold font-kittu py-[2px]  bg-transparent outline-none flex items-center justify-center gap-2'><span className='w-[30px] h-[30px] rounded-full border-transparent bg-[#bc1b1b] animate-bulb'></span><span>Limited Time Offer</span></h1>
+      <p className='text-[18px] sm:text-[20px] font-kittu'>Chatbot Development Workshop</p>
+      <p className='text-[20px] sm:text-[22px] font-kittu'>Group of 10 members at a time</p>
+      <p  className='text-[17px] sm:text-[19px] font-kittu'>Price : 500/person</p>
+      <p  className='text-[16px] sm:text-[18px] font-kittu font-semibold'>Total : 5000/-</p>
+      <a href=" https://forms.gle/acKvcgtJBeyzqb5Z8" className='py-2 px-4 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white text-[16px] sm:text-[18px] font-semibold rounded-lg transition-transform hover:scale-105' target="_blank" rel="noopener noreferrer">Register Now</a>
+    </div>
+    <div className='flex flex-col justify-center items-center gap-2 py-2 px-4 w-[90%] rounded-[10px] bg-white hover:cursor-pointer hover:bg-gray-300 transition-colors duration-150'>
       <p className='text-[20px] sm:text-[22px] font-bold font-kittu py-[2px] border-b-4  border-black bg-transparent outline-none'>Bulk Offer 1</p>
       <p className='text-[18px] sm:text-[20px] font-kittu'>(Power BI Workshop + Devops Workshop)</p>
       <p className='text-[20px] sm:text-[22px] font-kittu'>Group of 5 members at a time</p>

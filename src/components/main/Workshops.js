@@ -20,6 +20,7 @@ const Workshops = () => {
       <div className='px-3 mb-3'>
         <h1 className='text-[18px] sm:text-[22px] font-varun text-transparent bg-gradient-to-tr from-[#378ce7] to-[#67c6e3]  bg-clip-text flex flex-row gap-1 '>CHAT-BOT DEVELOPMENT <BotIcon size={28} className='text-white'/></h1>
         <p>Join our expert mentors who are transforming the future of chatbot development.</p>
+        <a href="#combos" className='text-[#fd2f2f] flex items-center justify-center gap-2'><span className='w-[20px] h-[20px] bg-red-600 rounded-full animate-bulb'></span>Limited Offer Available</a>
         <p></p>
         <div className=''>
           <h1 className='text-[17px] sm:text-[18px] text-transparent bg-gradient-to-tr from-[#ff204e] to-[#a0153e] bg-clip-text font-varun'>Outcomes:</h1>

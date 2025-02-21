@@ -32,10 +32,15 @@ module.exports = {
             animationTimingFunction: 'cubic-bezier(0, 0, 0.2, 1)',
           },
         },
+        bulb:{
+          '0%, 100%': { opacity: 1 },
+          '50%': { opacity: 0 }
+        }
       },
       animation: {
         fadeInSlideUp: 'fadeInSlideUp 0.5s ease-in-out',
         bounce: 'bounce 1s infinite',
+        bulb:'bulb 1s infinite'
       },
   },
   plugins: [

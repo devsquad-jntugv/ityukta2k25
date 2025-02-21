@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import Thiru from '../../assets/thiru.jpg'
 import Geeta from '../../assets/geeta.jpg'
 import Srikant from '../../assets/srikant.jpg'
@@ -7,6 +7,7 @@ import Venkat from '../../assets/venkat.jpg'
 import harita from '../../assets/harita.jpg'
 import {LucideArrowLeftCircle} from 'lucide-react'
 import { useNavigate } from 'react-router-dom';
+
 const people = [
   {
     id: 1,
@@ -57,6 +58,9 @@ const Support=()=> {
     const handelNavigate=(path)=>{
         navigate(path);
     }
+      useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
   return (
     <div className="min-h-screen bg-[#0e0d0d] py-12 px-4 sm:px-6 lg:px-8">
     <button onClick={()=>handelNavigate('/')} className=' absolute top-5 left-5 px-[4px] py-[4px] rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500'>
