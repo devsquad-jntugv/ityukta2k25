@@ -36,24 +36,24 @@ const profiles = [
   },
   {
     name: "P.Venkatesh",
-    role: "Overall Tech Coordinator",
+    role: "Tech Events Coordinator",
     image: overalltech,
     Contact:"9866025291"
   },
   {
     name: "R.Geethika",
-    role: "Co-overall tech coordinator",
+    role: "Tech Events coordinator",
     image: cooveralltech,
   },
   {
     name: "G.Chandra Mouli",
-    role: "Overall Non-tech Coordinator",
+    role: "Non-tech Events Coordinator",
     image: overallnontech,
     Contact:"9515299751"
   },
   {
     name: "Ch.Jahnavi",
-    role: "Co-overall non-tech coordinator",
+    role: "Non-tech Events coordinator",
     image: cooverallnontech,
   },
   {
