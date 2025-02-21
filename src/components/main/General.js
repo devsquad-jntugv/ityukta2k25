@@ -19,6 +19,7 @@ const General = () => {
             <ul className='list-disc ml-[20px] font-kittu text-[15px] sm:text-[16px]'>
                 <li>Food(only afternoon)</li>
                 <li>Eligible for enrolling any event or workshop</li>
+                <li>Cultural Pass</li>
                 <li>No Accomodation</li>
             </ul>
            </div>
@@ -34,6 +35,7 @@ const General = () => {
             <ul className='list-disc ml-[20px] font-kittu text-[15px] sm:text-[16px]'>
                 <li>Food</li>
                 <li>Eligible for enrolling any event or workshop</li>
+                <li>Cultural Pass</li>
                 <li className='text-[#ffd000] text-[17px] sm:text-[18px]'>Accomodation is provided</li>
             </ul>
            </div>

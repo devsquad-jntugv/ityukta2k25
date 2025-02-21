@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState} from 'react';
 import treasure from "../assets/treasure.jpg"
 import explode from "../assets/explode.jpg"
 import reflect from "../assets/reflect.png"
@@ -87,7 +87,6 @@ const nonTechnicalEvents = [
 
 const Events=()=> {
   const [showTechnical, setShowTechnical] = useState(true);
-
   return (
     <div className=" bg-[#0e0d0d] text-white text-[16px] sm:text-[18px]">
       <div className="container px-4 py-8">
@@ -116,7 +115,7 @@ const Events=()=> {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 hover:cursor-pointer">
            {(showTechnical ? technicalEvents : nonTechnicalEvents).map((event) => (
-            <div key={event.id} className="relative rounded-lg bg-black overflow-hidden group">
+            <div key={event.id}  className="relative rounded-lg bg-black overflow-hidden group transition-shadow duration-300">
       {/* Image */}
                <div>
                 <img src={event.image} alt="Event1" className="object-cover w-full h-full" loading='lazy'/>

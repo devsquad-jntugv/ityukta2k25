@@ -1,10 +1,12 @@
-import React from 'react'
+import React,{useRef} from 'react'
 import Person from '../../assets/IcSponsor.png'
 import Hippo from '../../assets/hippo.png'
 import Chennai from '../../assets/Chennai.png'
 import Village from '../../assets/village.jpg'
 import Village2 from '../../assets/village2.png'
 import Code from '../../assets/cscodenz.jpg'
+import { motion,useInView } from 'framer-motion'
+import { popUpVariant } from '../../variants'
 const sponsors=[
     {
         id:1,
@@ -52,11 +54,19 @@ const sponsors=[
     },
 ]
 const Sponsors = () => {
+  const ref = useRef(null);
+   const isInView = useInView(ref, { once: true, margin: "-100px" });
   return (
     <div className='bg-[#0e0ed0d] sm:px-4 sm:py-4 px-2 py-2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-center items-center sm:flex-row gap-3 flex-wrap'>
   {sponsors.map((sponsor) => {
     return (
-      <div key={sponsor.id} className='flex flex-col items-start gap-1 rounded-[10px] shadow-sm shadow-white max-w-[250px]'>
+      <motion.div key={sponsor.id}
+      ref={ref}
+            variants={popUpVariant}
+            initial="hidden"
+            animate={isInView ? "visible" : "hidden"}
+                  transition={{ delay: 0.2 }}
+      className='flex flex-col items-start gap-1 rounded-[10px] shadow-sm shadow-white max-w-[250px] transition-shadow duration-300"'>
         <a href={sponsor.url} rel="noopener noreferrer">
           <img src={sponsor.logo} alt={sponsor.name} className='w-[310px] h-[160px] rounded-t-[8px] bg-cover' />
         </a>
@@ -68,7 +78,7 @@ const Sponsors = () => {
             {sponsor.address}
           </p>
         </div>
-      </div>
+      </motion.div>
     );
   })}
 </div>
